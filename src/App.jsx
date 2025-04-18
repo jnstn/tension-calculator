@@ -286,7 +286,7 @@ export default function TensionCalculator() {
   );
 
   return (
-    <div className="pl-6 pr-6 max-w-6xl mx-auto text-black dark:text-white min-h-screen transition-colors duration-300">
+    <div className="pl-6 pr-6 pb-6 max-w-6xl mx-auto text-black dark:text-white min-h-screen transition-colors duration-300">
       <div className="text-center mt-12 mb-12">
         <h1 className="text-4xl font-bold text-black dark:text-white">
           Tennis String Tension Calculator
