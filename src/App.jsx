@@ -70,7 +70,9 @@ const findTensionForDT = (targetDT, ratio, specs) => {
 
 const convertWeight = (value, from, to) => {
   if (from === to) return value;
-  return from === "lbs" ? value / 2.20462 : value * 2.20462;
+  return from === "lbs"
+    ? value / 2.20462 // lbs ➝ kg
+    : value * 2.20462; // kg ➝ lbs
 };
 
 export default function TensionCalculator() {
@@ -78,8 +80,8 @@ export default function TensionCalculator() {
   const [oldSelection, setOldSelection] = useState({});
   const [newSelection, setNewSelection] = useState({});
   const [unit, setUnit] = useState("lbs");
-  const [oldMainsLbs, setOldMainsLbs] = useState(0);
-  const [oldCrossesLbs, setOldCrossesLbs] = useState(0);
+  const [oldMainsLbs, setOldMainsLbs] = useState(46);
+  const [oldCrossesLbs, setOldCrossesLbs] = useState(46);
   const [suggestedMains, setSuggestedMains] = useState(null);
   const [suggestedCrosses, setSuggestedCrosses] = useState(null);
   const [oldDT, setOldDT] = useState(null);
@@ -108,19 +110,18 @@ export default function TensionCalculator() {
 
   const handleUnitSwitch = (val) => {
     const newUnit = val ? "kg" : "lbs";
-    setOldMainsLbs((prev) => convertWeight(prev, unit, newUnit));
-    setOldCrossesLbs((prev) => convertWeight(prev, unit, newUnit));
     setUnit(newUnit);
   };
 
   const displayTension = (lbs) => {
-    const value = unit === "kg" ? lbs / 2.20462 : lbs;
-    return Math.round(value * 10) / 10;
+    const val = unit === "kg" ? lbs / 2.20462 : lbs;
+    return Math.round(val * 10) / 10; // 1 decimal place
   };
 
   const parseTensionInput = (value) => {
     const num = parseFloat(value);
-    return isNaN(num) ? 0 : unit === "kg" ? num * 2.20462 : num;
+    if (isNaN(num)) return 0;
+    return unit === "kg" ? num * 2.20462 : num; // Always return lbs
   };
 
   const getRacketBySelection = (sel) =>
@@ -297,7 +298,7 @@ export default function TensionCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-md">
           <CardContent className="p-4 grid gap-6">
-            <Label className="font-bold text-lg">Current Racket</Label>
+            <Label className="font-bold text-lg">Old Racket</Label>
 
             {/* Group 1: Racket Selection */}
             <div className="grid gap-4">
@@ -314,13 +315,13 @@ export default function TensionCalculator() {
               </Label>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <Label>Current Mains Tension</Label>
+                  <Label>Old Mains Tension</Label>
                   {renderLabeledInput(displayTension(oldMainsLbs), (e) =>
                     setOldMainsLbs(parseTensionInput(e.target.value))
                   )}
                 </div>
                 <div>
-                  <Label>Current Crosses Tension</Label>
+                  <Label>Old Crosses Tension</Label>
                   {renderLabeledInput(displayTension(oldCrossesLbs), (e) =>
                     setOldCrossesLbs(parseTensionInput(e.target.value))
                   )}
