@@ -11,6 +11,10 @@ import { Card, CardContent } from "./components/ui/card";
 import { Label } from "./components/ui/label";
 import { RadioGroup, RadioGroupItem } from "./components/ui/radio-group";
 
+/**
+ * Mock API function to retrieve racket specifications.
+ * Replace with real data source or API call as needed.
+ */
 const mockRacketsAPI = async () => [
   {
     brand: "Head",
@@ -36,10 +40,27 @@ const mockRacketsAPI = async () => [
   },
 ];
 
-const estimateDynamicTension = (mains, crosses, specs) => {
-  if (!specs) return null;
+/**
+ * estimateDynamicTension()
+ * Calculates the 'dynamic tension' (DT) of a racket given string tensions
+ * and its specifications, relative to a reference head size.
+ *
+ * @param {number|string} mains - Main string tension (lbs)
+ * @param {number|string} crosses - Cross string tension (lbs)
+ * @param {object} specs - Racket specifications
+ * @param {number} referenceHeadSize - Head size of the 'old' racket for scaling
+ * @returns {number|null} Estimated DT rounded to one decimal, or null if missing data
+ */
+const estimateDynamicTension = (mains, crosses, specs, referenceHeadSize) => {
+  if (!specs || !referenceHeadSize) return null;
+
+  // Convert input tensions to numbers and compute average
   const avgTension = (Number(mains) + Number(crosses)) / 2;
-  const headFactor = 95 / specs.headSize;
+
+  // Compute head size factor relative to the reference racket
+  const headFactor = referenceHeadSize / specs.headSize;
+
+  // Map string pattern to an openness factor, then invert for feel scaling
   const patternKey = `${specs.pattern.mains}x${specs.pattern.crosses}`;
   const patternOpenness = {
     "18x20": 0.0,
@@ -49,33 +70,69 @@ const estimateDynamicTension = (mains, crosses, specs) => {
     "16x18": 1.5,
   };
   const patternFactor = 1 - (patternOpenness[patternKey] ?? 0.5) * 0.1;
+
+  // Scale for frame stiffness (RA), using 60 as a baseline
   const stiffnessFactor = 1 + (specs.stiffness - 60) * 0.01;
+
+  // Final DT calculation combining all factors
   const dt = avgTension * headFactor * patternFactor * stiffnessFactor;
   return Math.round(dt * 10) / 10;
 };
 
-const findTensionForDT = (targetDT, ratio, specs) => {
+/**
+ * findTensionForDT()
+ * Uses a binary search to find the mains tension on a new racket that
+ * matches a target 'dynamic tension' (DT) from an old racket.
+ *
+ * @param {number} targetDT - DT to match
+ * @param {number} ratio - mains-to-crosses tension ratio (profile)
+ * @param {object} specs - New racket specifications
+ * @param {number} referenceHeadSize - Head size of the old racket
+ * @returns {number} Suggested mains tension (lbs) rounded to one decimal
+ */
+const findTensionForDT = (targetDT, ratio, specs, referenceHeadSize) => {
   let low = 10,
     high = 80,
     bestTension = null;
+
+  // Continue until precision of 0.05 lbs
   while (high - low > 0.05) {
     const mid = (low + high) / 2;
-    const dt = estimateDynamicTension(mid, mid * ratio, specs);
+    const dt = estimateDynamicTension(
+      mid,
+      mid * ratio,
+      specs,
+      referenceHeadSize
+    );
     if (dt > targetDT) high = mid;
     else low = mid;
     bestTension = mid;
   }
+
   return Math.round(bestTension * 10) / 10;
 };
 
+/**
+ * convertWeight()
+ * Utility to convert between pounds and kilograms.
+ *
+ * @param {number} value - Weight value to convert
+ * @param {"lbs"|"kg"} from - Original unit
+ * @param {"lbs"|"kg"} to - Desired unit
+ * @returns {number} Converted value
+ */
 const convertWeight = (value, from, to) => {
   if (from === to) return value;
-  return from === "lbs"
-    ? value / 2.20462 // lbs ➝ kg
-    : value * 2.20462; // kg ➝ lbs
+  return from === "lbs" ? value / 2.20462 : value * 2.20462;
 };
 
+/**
+ * TensionCalculator Component
+ * Renders UI for selecting an old racket, entering its tension, then
+ * selecting a new racket to get suggested tensions to match feel.
+ */
 export default function TensionCalculator() {
+  // State hooks for UI selections and values
   const [rackets, setRackets] = useState([]);
   const [oldSelection, setOldSelection] = useState({});
   const [newSelection, setNewSelection] = useState({});
@@ -88,42 +145,47 @@ export default function TensionCalculator() {
   const [newDT, setNewDT] = useState(null);
   const [tensionProfile, setTensionProfile] = useState("balanced");
 
+  // Ratio presets for different tension profiles
   const profileRatios = {
     balanced: 1.0,
     spin: 0.95,
     control: 1.05,
   };
 
+  // Load racket data on mount
   useEffect(() => {
     mockRacketsAPI().then(setRackets);
   }, []);
 
+  // Apply dark mode based on user preference
   useEffect(() => {
-    const applyTheme = (e) => {
+    const applyTheme = (e) =>
       document.documentElement.classList.toggle("dark", e.matches);
-    };
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
     applyTheme(mediaQuery);
     mediaQuery.addEventListener("change", applyTheme);
     return () => mediaQuery.removeEventListener("change", applyTheme);
   }, []);
 
+  // Toggle between lbs and kg for display
   const handleUnitSwitch = (val) => {
-    const newUnit = val ? "kg" : "lbs";
-    setUnit(newUnit);
+    setUnit(val ? "kg" : "lbs");
   };
 
+  // Format tension for display
   const displayTension = (lbs) => {
     const val = unit === "kg" ? lbs / 2.20462 : lbs;
-    return Math.round(val * 10) / 10; // 1 decimal place
+    return Math.round(val * 10) / 10;
   };
 
+  // Parse user input, converting to lbs internally
   const parseTensionInput = (value) => {
     const num = parseFloat(value);
     if (isNaN(num)) return 0;
-    return unit === "kg" ? num * 2.20462 : num; // Always return lbs
+    return unit === "kg" ? num * 2.20462 : num;
   };
 
+  // Helper to find racket object by dropdown selection
   const getRacketBySelection = (sel) =>
     rackets.find(
       (r) =>
@@ -133,23 +195,47 @@ export default function TensionCalculator() {
         r.version === sel.version
     );
 
+  // Recalculate DTs and suggested tensions whenever inputs change
   useEffect(() => {
     const oldSpecs = getRacketBySelection(oldSelection);
     const newSpecs = getRacketBySelection(newSelection);
-    if (oldSpecs)
-      setOldDT(estimateDynamicTension(oldMainsLbs, oldCrossesLbs, oldSpecs));
-    if (oldSpecs && newSpecs) {
-      const targetDT = estimateDynamicTension(
-        oldMainsLbs,
-        oldCrossesLbs,
-        oldSpecs
-      );
+
+    // Only proceed if old racket is selected
+    if (!oldSpecs) return;
+
+    // Use old racket's headSize as reference
+    const referenceHeadSize = oldSpecs.headSize;
+
+    // Calculate and set old DT
+    const calculatedOldDT = estimateDynamicTension(
+      oldMainsLbs,
+      oldCrossesLbs,
+      oldSpecs,
+      referenceHeadSize
+    );
+    setOldDT(calculatedOldDT);
+
+    // If new racket selected, compute matched tensions
+    if (newSpecs) {
       const ratio = profileRatios[tensionProfile];
-      const mains = findTensionForDT(targetDT, ratio, newSpecs);
+      const mains = findTensionForDT(
+        calculatedOldDT,
+        ratio,
+        newSpecs,
+        referenceHeadSize
+      );
       const crosses = Math.round(mains * ratio * 10) / 10;
       setSuggestedMains(mains);
       setSuggestedCrosses(crosses);
-      setNewDT(estimateDynamicTension(mains, crosses, newSpecs));
+
+      // Calculate new DT for display
+      const calculatedNewDT = estimateDynamicTension(
+        mains,
+        crosses,
+        newSpecs,
+        referenceHeadSize
+      );
+      setNewDT(calculatedNewDT);
     }
   }, [
     oldSelection,
@@ -160,6 +246,10 @@ export default function TensionCalculator() {
     rackets,
   ]);
 
+  /**
+   * uniqueValues()
+   * Helper to extract unique values for dropdowns, with optional filtering.
+   */
   const uniqueValues = (key, filter = {}) => [
     ...new Set(
       rackets
@@ -170,26 +260,45 @@ export default function TensionCalculator() {
     ),
   ];
 
+  /**
+   * renderRacketSelectors()
+   * Renders the Brand/Product/Version/Variant dropdowns, resetting deeper
+   * selections when a higher-level choice changes.
+   */
   const renderRacketSelectors = (selection, setSelection) => (
     <>
+      {/* Brand Dropdown */}
       <Label>Brand</Label>
-      <Select onValueChange={(v) => setSelection({ brand: v })}>
+      <Select
+        onValueChange={(v) =>
+          // Clear product, version, variant on brand change
+          setSelection({ brand: v })
+        }
+      >
         <SelectTrigger className="dark:bg-gray-700">
           {selection.brand || "Select brand"}
         </SelectTrigger>
         <SelectContent className="dark:bg-gray-700">
           {uniqueValues("brand").map((val) => (
-            <SelectItem className="dark:bg-gray-700" key={val} value={val}>
+            <SelectItem key={val} value={val}>
               {val}
             </SelectItem>
           ))}
         </SelectContent>
       </Select>
+
       {selection.brand && (
         <>
+          {/* Product Dropdown */}
           <Label>Product</Label>
           <Select
-            onValueChange={(v) => setSelection((s) => ({ ...s, product: v }))}
+            onValueChange={(v) =>
+              // Keep brand, clear version & variant on product change
+              setSelection((prev) => ({
+                brand: prev.brand,
+                product: v,
+              }))
+            }
           >
             <SelectTrigger className="dark:bg-gray-700">
               {selection.product || "Select product"}
@@ -197,11 +306,7 @@ export default function TensionCalculator() {
             <SelectContent className="dark:bg-gray-700">
               {uniqueValues("product", { brand: selection.brand }).map(
                 (val) => (
-                  <SelectItem
-                    className="dark:bg-gray-700"
-                    key={val}
-                    value={val}
-                  >
+                  <SelectItem key={val} value={val}>
                     {val}
                   </SelectItem>
                 )
@@ -210,11 +315,20 @@ export default function TensionCalculator() {
           </Select>
         </>
       )}
+
       {selection.product && (
         <>
+          {/* Version Dropdown */}
           <Label>Version</Label>
           <Select
-            onValueChange={(v) => setSelection((s) => ({ ...s, version: v }))}
+            onValueChange={(v) =>
+              // Keep brand & product, clear variant on version change
+              setSelection((prev) => ({
+                brand: prev.brand,
+                product: prev.product,
+                version: v,
+              }))
+            }
           >
             <SelectTrigger className="dark:bg-gray-700">
               {selection.version || "Select version"}
@@ -224,7 +338,7 @@ export default function TensionCalculator() {
                 brand: selection.brand,
                 product: selection.product,
               }).map((val) => (
-                <SelectItem className="dark:bg-gray-700" key={val} value={val}>
+                <SelectItem key={val} value={val}>
                   {val}
                 </SelectItem>
               ))}
@@ -232,11 +346,19 @@ export default function TensionCalculator() {
           </Select>
         </>
       )}
+
       {selection.version && (
         <>
+          {/* Variant Dropdown */}
           <Label>Variant</Label>
           <Select
-            onValueChange={(v) => setSelection((s) => ({ ...s, variant: v }))}
+            onValueChange={(v) =>
+              // Set variant, keep above selections
+              setSelection((prev) => ({
+                ...prev,
+                variant: v,
+              }))
+            }
           >
             <SelectTrigger className="dark:bg-gray-700">
               {selection.variant || "Select variant"}
@@ -247,7 +369,7 @@ export default function TensionCalculator() {
                 product: selection.product,
                 version: selection.version,
               }).map((val) => (
-                <SelectItem className="dark:bg-gray-700" key={val} value={val}>
+                <SelectItem key={val} value={val}>
                   {val}
                 </SelectItem>
               ))}
@@ -258,6 +380,10 @@ export default function TensionCalculator() {
     </>
   );
 
+  /**
+   * renderLabeledInput()
+   * Wraps the Input component with optional unit display and readonly styling.
+   */
   const renderLabeledInput = (
     value,
     onChange,
@@ -296,11 +422,11 @@ export default function TensionCalculator() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Old Racket Panel */}
         <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-md">
           <CardContent className="p-4 grid gap-6">
             <Label className="font-bold text-lg">Old Racket</Label>
 
-            {/* Group 1: Racket Selection */}
             <div className="grid gap-4">
               <Label className="text-sm font-semibold uppercase text-gray-500 dark:text-gray-400">
                 Racket
@@ -308,7 +434,6 @@ export default function TensionCalculator() {
               {renderRacketSelectors(oldSelection, setOldSelection)}
             </div>
 
-            {/* Group 2: Tensions & DT */}
             <div className="grid gap-4 border-t border-gray-300 dark:border-gray-600 pt-4">
               <Label className="text-sm font-semibold uppercase text-gray-500 dark:text-gray-400">
                 Tensions
@@ -333,7 +458,6 @@ export default function TensionCalculator() {
               </div>
             </div>
 
-            {/* Group 3: Display Settings */}
             <div className="grid gap-2 border-t border-gray-300 dark:border-gray-600 pt-4">
               <Label className="text-sm font-semibold uppercase text-gray-500 dark:text-gray-400">
                 Display Units
@@ -352,11 +476,11 @@ export default function TensionCalculator() {
           </CardContent>
         </Card>
 
+        {/* New Racket Panel */}
         <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-md">
           <CardContent className="p-4 grid gap-6">
             <Label className="font-bold text-lg">New Racket</Label>
 
-            {/* Group 1: Racket Selection */}
             <div className="grid gap-4">
               <Label className="text-sm font-semibold uppercase text-gray-500 dark:text-gray-400">
                 Racket
@@ -364,7 +488,6 @@ export default function TensionCalculator() {
               {renderRacketSelectors(newSelection, setNewSelection)}
             </div>
 
-            {/* Group 2: Suggested Tensions & DT */}
             <div className="grid gap-4 border-t border-gray-300 dark:border-gray-600 pt-4">
               <Label className="text-sm font-semibold uppercase text-gray-500 dark:text-gray-400">
                 Suggested Tensions
@@ -393,7 +516,6 @@ export default function TensionCalculator() {
               </div>
             </div>
 
-            {/* Group 3: Tension Profile */}
             <div className="grid gap-2 border-t border-gray-300 dark:border-gray-600 pt-4">
               <Label className="text-sm font-semibold uppercase text-gray-500 dark:text-gray-400">
                 Tension Profile
