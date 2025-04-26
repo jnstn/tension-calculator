@@ -58,7 +58,7 @@ const estimateDynamicTension = (mains, crosses, specs, referenceHeadSize) => {
   const avgTension = (Number(mains) + Number(crosses)) / 2;
 
   // Compute head size factor relative to the reference racket
-  const headFactor = referenceHeadSize / specs.headSize;
+  const headFactor = Math.sqrt(referenceHeadSize / specs.headSize);
 
   // Map string pattern to an openness factor, then invert for feel scaling
   const patternKey = `${specs.pattern.mains}x${specs.pattern.crosses}`;
@@ -72,11 +72,19 @@ const estimateDynamicTension = (mains, crosses, specs, referenceHeadSize) => {
   const patternFactor = 1 - (patternOpenness[patternKey] ?? 0.5) * 0.1;
 
   // Scale for frame stiffness (RA), using 60 as a baseline
-  const stiffnessFactor = 1 + (specs.stiffness - 60) * 0.01;
+  const stiffnessFactor = 1 + (specs.stiffness - 60) * 0.003;
+
+  // Calibration factor for DT estimation (ERT 300 alignment)
+  const calibrationFactor = 0.748;
 
   // Final DT calculation combining all factors
-  const dt = avgTension * headFactor * patternFactor * stiffnessFactor;
-  return Math.round(dt * 10) / 10;
+  const dt =
+    avgTension *
+    headFactor *
+    patternFactor *
+    stiffnessFactor *
+    calibrationFactor;
+  return Math.round(dt);
 };
 
 /**
@@ -109,7 +117,8 @@ const findTensionForDT = (targetDT, ratio, specs, referenceHeadSize) => {
     bestTension = mid;
   }
 
-  return Math.round(bestTension * 10) / 10;
+  // Round to nearest 0.5
+  return Math.round(bestTension * 2) / 2;
 };
 
 /**
@@ -148,8 +157,8 @@ export default function TensionCalculator() {
   // Ratio presets for different tension profiles
   const profileRatios = {
     balanced: 1.0,
-    spin: 0.95,
-    control: 1.05,
+    spin: 0.97,
+    control: 1.03,
   };
 
   // Load racket data on mount
@@ -175,7 +184,7 @@ export default function TensionCalculator() {
   // Format tension for display
   const displayTension = (lbs) => {
     const val = unit === "kg" ? lbs / 2.20462 : lbs;
-    return Math.round(val * 10) / 10;
+    return (Math.round(val * 2) / 2).toFixed(1);
   };
 
   // Parse user input, converting to lbs internally
@@ -224,7 +233,8 @@ export default function TensionCalculator() {
         newSpecs,
         referenceHeadSize
       );
-      const crosses = Math.round(mains * ratio * 10) / 10;
+      // Round crosses to nearest 0.5
+      const crosses = Math.round(mains * ratio * 2) / 2;
       setSuggestedMains(mains);
       setSuggestedCrosses(crosses);
 
