@@ -84,7 +84,7 @@ const estimateDynamicTension = (mains, crosses, specs, referenceHeadSize) => {
     patternFactor *
     stiffnessFactor *
     calibrationFactor;
-  return Math.round(dt);
+  return dt;
 };
 
 /**
@@ -96,28 +96,35 @@ const estimateDynamicTension = (mains, crosses, specs, referenceHeadSize) => {
  * @param {number} ratio - mains-to-crosses tension ratio (profile)
  * @param {object} specs - New racket specifications
  * @param {number} referenceHeadSize - Head size of the old racket
- * @returns {number} Suggested mains tension (lbs) rounded to one decimal
+ * @returns {number} Suggested mains tension (lbs) rounded to nearest 0.5
  */
 const findTensionForDT = (targetDT, ratio, specs, referenceHeadSize) => {
   let low = 10,
-    high = 80,
-    bestTension = null;
+    high = 80;
+  let bestTension = null;
+  let bestError = Infinity;
 
-  // Continue until precision of 0.05 lbs
-  while (high - low > 0.05) {
+  // Continue until precision of 0.01 lbs
+  while (high - low > 0.01) {
     const mid = (low + high) / 2;
-    const dt = estimateDynamicTension(
-      mid,
-      mid * ratio,
-      specs,
-      referenceHeadSize
-    );
-    if (dt > targetDT) high = mid;
-    else low = mid;
-    bestTension = mid;
+    const mains = mid;
+    const crosses = mid * ratio;
+    const dt = estimateDynamicTension(mains, crosses, specs, referenceHeadSize);
+
+    const error = Math.abs(dt - targetDT);
+    if (error < bestError) {
+      bestError = error;
+      bestTension = mains;
+    }
+
+    if (dt > targetDT) {
+      high = mid;
+    } else {
+      low = mid;
+    }
   }
 
-  // Round to nearest 0.5
+  // Round mains tension to nearest 0.5 lbs
   return Math.round(bestTension * 2) / 2;
 };
 
@@ -409,7 +416,7 @@ export default function TensionCalculator() {
         onChange={onChange}
         className={`w-full bg-gray-100 dark:bg-gray-700 text-black dark:text-white ${
           readOnly
-            ? "pointer-events-none font-semibold text-center focus:outline-none focus-visible:outline-none focus:ring-0 focus:ring-transparent"
+            ? "pointer-events-none font-semibold focus:outline-none focus-visible:outline-none focus:ring-0 focus:ring-transparent"
             : ""
         }`}
       />
@@ -464,7 +471,12 @@ export default function TensionCalculator() {
               </div>
               <div>
                 <Label>Estimated DT</Label>
-                {renderLabeledInput(oldDT ?? "", null, true, false)}
+                {renderLabeledInput(
+                  oldDT !== null ? oldDT.toFixed(1) : "",
+                  null,
+                  true,
+                  false
+                )}
               </div>
             </div>
 
@@ -522,7 +534,12 @@ export default function TensionCalculator() {
               </div>
               <div>
                 <Label>Estimated DT</Label>
-                {renderLabeledInput(newDT ?? "", null, true, false)}
+                {renderLabeledInput(
+                  newDT !== null ? newDT.toFixed(1) : "",
+                  null,
+                  true,
+                  false
+                )}
               </div>
             </div>
 
