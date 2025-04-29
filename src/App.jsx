@@ -10,35 +10,7 @@ import { Switch } from "./components/ui/switch";
 import { Card, CardContent } from "./components/ui/card";
 import { Label } from "./components/ui/label";
 import { RadioGroup, RadioGroupItem } from "./components/ui/radio-group";
-
-/**
- * Mock API function to retrieve racket specifications.
- * Replace with real data source or API call as needed.
- */
-const mockRacketsAPI = async () => [
-  {
-    brand: "Head",
-    product: "Prestige",
-    variant: "Tour",
-    version: "2023",
-    headSize: 95,
-    pattern: { mains: 16, crosses: 19 },
-    swingweight: 330,
-    stiffness: 62,
-    beam: [22],
-  },
-  {
-    brand: "Head",
-    product: "Extreme",
-    variant: "Pro",
-    version: "2024",
-    headSize: 98,
-    pattern: { mains: 16, crosses: 19 },
-    swingweight: 322,
-    stiffness: 64,
-    beam: [22, 23, 21],
-  },
-];
+import racketsData from "./data/rackets.json";
 
 /**
  * estimateDynamicTension()
@@ -170,7 +142,7 @@ export default function TensionCalculator() {
 
   // Load racket data on mount
   useEffect(() => {
-    mockRacketsAPI().then(setRackets);
+    setRackets(racketsData.rackets);
   }, []);
 
   // Apply dark mode based on user preference
