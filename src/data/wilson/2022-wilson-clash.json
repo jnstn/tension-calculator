@@ -1,0 +1,118 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-clash-108-v2-2022",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "108",
+      "version": "v2",
+      "releaseYear": 2022,
+      "headSize": 108,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 325,
+      "stiffness": 63,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 295,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100ul-v2-2022",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100UL",
+      "version": "v2",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 300,
+      "stiffness": 63,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 281,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100l-v2-2022",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100L",
+      "version": "v2",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 303,
+      "stiffness": 55,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 295,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100-pro-v2-2022",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100 Pro",
+      "version": "v2",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 325,
+      "stiffness": 59,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 326,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100-v2-2022",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100",
+      "version": "v2",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 313,
+      "stiffness": 57,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 312,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-98-v2-2022",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "98",
+      "version": "v2",
+      "releaseYear": 2022,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 327,
+      "stiffness": 60,
+      "beam": [24, 24, 24],
+      "weight": 326,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

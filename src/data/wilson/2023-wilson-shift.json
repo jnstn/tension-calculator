@@ -1,0 +1,61 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-shift-99l-v1-2023",
+      "brand": "Wilson",
+      "product": "Shift",
+      "variant": "99L",
+      "version": "v1",
+      "releaseYear": 2023,
+      "headSize": 99,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 311,
+      "stiffness": 68,
+      "beam": [23.5, 23.5, 23.5],
+      "weight": 301,
+      "recommendedTension": "48-58 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-shift-99-v1-2023",
+      "brand": "Wilson",
+      "product": "Shift",
+      "variant": "99",
+      "version": "v1",
+      "releaseYear": 2023,
+      "headSize": 99,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 317,
+      "stiffness": 67,
+      "beam": [23.5, 23.5, 23.5],
+      "weight": 318,
+      "recommendedTension": "48-58 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-shift-99-pro-v1-2023",
+      "brand": "Wilson",
+      "product": "Shift",
+      "variant": "99 Pro",
+      "version": "v1",
+      "releaseYear": 2023,
+      "headSize": 99,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 332,
+      "stiffness": 68,
+      "beam": [23.5, 23.5, 23.5],
+      "weight": 332,
+      "recommendedTension": "48-58 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    }
+  ]
+}

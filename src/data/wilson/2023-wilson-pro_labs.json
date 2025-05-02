@@ -1,0 +1,23 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-pro-staff-six.one-95-v14-2023",
+      "brand": "Wilson",
+      "product": "Pro Staff (Pro Labs)",
+      "variant": "Six.One 95",
+      "version": "v14",
+      "releaseYear": 2023,
+      "headSize": 95,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": null,
+      "stiffness": 64,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 349,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T 10T 8H 10H"
+    }
+  ]
+}

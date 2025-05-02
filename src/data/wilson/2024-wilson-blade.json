@@ -1,0 +1,156 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-blade-pro-98-18x20-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade",
+      "variant": "Pro 98 18x20",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 341,
+      "stiffness": 60,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 9T,8H,10H"
+    },
+    {
+      "id": "wilson-blade-pro-98-16x19-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade",
+      "variant": "Pro 98 16x19",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 337,
+      "stiffness": 61,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-blade-104-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade",
+      "variant": "104",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 104,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 311,
+      "stiffness": 64,
+      "beam": [22, 22, 22],
+      "weight": 306,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "wilson-blade-100ul-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade",
+      "variant": "100UL",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 304,
+      "stiffness": 65,
+      "beam": [22, 22, 22],
+      "weight": 283,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "wilson-blade-100l-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade",
+      "variant": "100L",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 308,
+      "stiffness": 69,
+      "beam": [22, 22, 22],
+      "weight": 301,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "wilson-blade-100-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade",
+      "variant": "100",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 322,
+      "stiffness": 60,
+      "beam": [22, 22, 22],
+      "weight": 318,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "wilson-blade-98-16x19-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade",
+      "variant": "98 16x19",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 324,
+      "stiffness": 62,
+      "beam": [21, 21, 21],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "wilson-blade-98-18x20-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade",
+      "variant": "98 18x20",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 330,
+      "stiffness": 60,
+      "beam": [21, 21, 21],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    }
+  ]
+}

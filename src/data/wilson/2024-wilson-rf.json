@@ -1,0 +1,61 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-rf-01-future-2024",
+      "brand": "Wilson",
+      "product": "RF",
+      "variant": "Future",
+      "version": "01",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": null,
+      "stiffness": 64,
+      "beam": [23.2, 23, 22],
+      "weight": 295,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-rf-01-2024",
+      "brand": "Wilson",
+      "product": "RF",
+      "variant": "Standard",
+      "version": "01",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 319,
+      "stiffness": 64,
+      "beam": [23.2, 23, 22],
+      "weight": 318,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-rf-01-pro-2024",
+      "brand": "Wilson",
+      "product": "RF",
+      "variant": "Pro",
+      "version": "01",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 331,
+      "stiffness": 67,
+      "beam": [23.2, 23, 22],
+      "weight": 337,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

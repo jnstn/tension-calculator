@@ -10,7 +10,6 @@ import { Switch } from "./components/ui/switch";
 import { Card, CardContent } from "./components/ui/card";
 import { Label } from "./components/ui/label";
 import { RadioGroup, RadioGroupItem } from "./components/ui/radio-group";
-// import racketsData from "./data/rackets.json";
 import { racketsData } from "./data/data";
 
 /**
@@ -240,15 +239,16 @@ export default function TensionCalculator() {
    * uniqueValues()
    * Helper to extract unique values for dropdowns, with optional filtering.
    */
-  const uniqueValues = (key, filter = {}) => [
-    ...new Set(
-      rackets
-        .filter((r) =>
-          Object.entries(filter).every(([k, v]) => !v || r[k] === v)
-        )
-        .map((r) => r[key])
-    ),
-  ];
+  const uniqueValues = (key, filter = {}) =>
+    [
+      ...new Set(
+        rackets
+          .filter((r) =>
+            Object.entries(filter).every(([k, v]) => !v || r[k] === v)
+          )
+          .map((r) => r[key])
+      ),
+    ].sort();
 
   /**
    * renderRacketSelectors()
@@ -269,11 +269,13 @@ export default function TensionCalculator() {
           {selection.brand || "Select brand"}
         </SelectTrigger>
         <SelectContent className="dark:bg-gray-700">
-          {uniqueValues("brand").map((val) => (
-            <SelectItem key={val} value={val}>
-              {val}
-            </SelectItem>
-          ))}
+          {uniqueValues("brand")
+            .sort()
+            .map((val) => (
+              <SelectItem key={val} value={val}>
+                {val}
+              </SelectItem>
+            ))}
         </SelectContent>
       </Select>
 
@@ -294,13 +296,13 @@ export default function TensionCalculator() {
               {selection.product || "Select product"}
             </SelectTrigger>
             <SelectContent className="dark:bg-gray-700">
-              {uniqueValues("product", { brand: selection.brand }).map(
-                (val) => (
+              {uniqueValues("product", { brand: selection.brand })
+                .sort()
+                .map((val) => (
                   <SelectItem key={val} value={val}>
                     {val}
                   </SelectItem>
-                )
-              )}
+                ))}
             </SelectContent>
           </Select>
         </>
@@ -327,11 +329,13 @@ export default function TensionCalculator() {
               {uniqueValues("version", {
                 brand: selection.brand,
                 product: selection.product,
-              }).map((val) => (
-                <SelectItem key={val} value={val}>
-                  {val}
-                </SelectItem>
-              ))}
+              })
+                .sort()
+                .map((val) => (
+                  <SelectItem key={val} value={val}>
+                    {val}
+                  </SelectItem>
+                ))}
             </SelectContent>
           </Select>
         </>
@@ -358,11 +362,13 @@ export default function TensionCalculator() {
                 brand: selection.brand,
                 product: selection.product,
                 version: selection.version,
-              }).map((val) => (
-                <SelectItem key={val} value={val}>
-                  {val}
-                </SelectItem>
-              ))}
+              })
+                .sort()
+                .map((val) => (
+                  <SelectItem key={val} value={val}>
+                    {val}
+                  </SelectItem>
+                ))}
             </SelectContent>
           </Select>
         </>

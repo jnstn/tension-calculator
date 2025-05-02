@@ -1,0 +1,118 @@
+{
+  "rackets": [
+    {
+      "id": "babolat-pure-drive-107-2025",
+      "brand": "Babolat",
+      "product": "Pure Drive",
+      "variant": "107",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 107,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 307,
+      "stiffness": 69,
+      "beam": [23, 26, 23],
+      "weight": 301,
+      "recommendedTension": "44-53 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "babolat-pure-drive-lite-2025",
+      "brand": "Babolat",
+      "product": "Pure Drive",
+      "variant": "Lite",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 295,
+      "stiffness": 69,
+      "beam": [23, 26, 23],
+      "weight": 283,
+      "recommendedTension": "44-53 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "babolat-pure-drive-team-2025",
+      "brand": "Babolat",
+      "product": "Pure Drive",
+      "variant": "Team",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 308,
+      "stiffness": 69,
+      "beam": [23, 26, 23],
+      "weight": 301,
+      "recommendedTension": "44-53 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "babolat-pure-drive-plus-2025",
+      "brand": "Babolat",
+      "product": "Pure Drive",
+      "variant": "Plus",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 325,
+      "stiffness": 69,
+      "beam": [23, 26, 23],
+      "weight": 318,
+      "recommendedTension": "46-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "babolat-pure-drive-98-2025",
+      "brand": "Babolat",
+      "product": "Pure Drive",
+      "variant": "98",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 326,
+      "stiffness": 69,
+      "beam": [21, 23, 21],
+      "weight": 323,
+      "recommendedTension": "46-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "babolat-pure-drive-100-2025",
+      "brand": "Babolat",
+      "product": "Pure Drive",
+      "variant": "100",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 317,
+      "stiffness": 69,
+      "beam": [23, 26, 23],
+      "weight": 318,
+      "recommendedTension": "46-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

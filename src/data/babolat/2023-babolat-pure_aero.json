@@ -1,0 +1,99 @@
+{
+  "rackets": [
+    {
+      "id": "babolat-pure-aero-lite-2023",
+      "brand": "Babolat",
+      "product": "Pure Aero",
+      "variant": "Lite",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 304,
+      "stiffness": 65,
+      "beam": [23, 26, 23],
+      "weight": 283,
+      "recommendedTension": "50-59 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "babolat-pure-aero-team-2023",
+      "brand": "Babolat",
+      "product": "Pure Aero",
+      "variant": "Team",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": null,
+      "stiffness": 67,
+      "beam": [23, 26, 23],
+      "weight": 301,
+      "recommendedTension": "50-59 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "babolat-pure-aero-plus-2023",
+      "brand": "Babolat",
+      "product": "Pure Aero",
+      "variant": "Plus",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 334,
+      "stiffness": 65,
+      "beam": [23, 26, 23],
+      "weight": 320,
+      "recommendedTension": "50-59 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "babolat-pure-aero-100-2023",
+      "brand": "Babolat",
+      "product": "Pure Aero",
+      "variant": "100",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 318,
+      "stiffness": 66,
+      "beam": [23, 26, 23],
+      "weight": 318,
+      "recommendedTension": "50-59 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "babolat-pure-aero-98-2023",
+      "brand": "Babolat",
+      "product": "Pure Aero",
+      "variant": "98",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 321,
+      "stiffness": 66,
+      "beam": [21, 23, 22],
+      "weight": 323,
+      "recommendedTension": "50-59 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

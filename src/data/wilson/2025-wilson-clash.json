@@ -1,0 +1,80 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-clash-108-v3-2025",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "108",
+      "version": "v3",
+      "releaseYear": 2025,
+      "headSize": 108,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 312,
+      "stiffness": 58,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 295,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100l-v3-2025",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100L",
+      "version": "v3",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 301,
+      "stiffness": 54,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 295,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100-v3-2025",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100",
+      "version": "v3",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 308,
+      "stiffness": 54,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 312,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100-pro-v3-2025",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100 Pro",
+      "version": "v3",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 327,
+      "stiffness": 57,
+      "beam": [24.5, 24.5, 24.5],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

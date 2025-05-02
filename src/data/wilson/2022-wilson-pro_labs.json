@@ -1,0 +1,42 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-ultra-pro-18x20-v4-2022",
+      "brand": "Wilson",
+      "product": "Ultra Pro (Pro Labs)",
+      "variant": "18x20",
+      "version": "v4",
+      "releaseYear": 2022,
+      "headSize": 97,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 319,
+      "stiffness": 62,
+      "beam": [20.6, 20.6, 20.6],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 9T,8H,10H"
+    },
+    {
+      "id": "wilson-ultra-pro-16x19-v4-2022",
+      "brand": "Wilson",
+      "product": "Ultra Pro (Pro Labs)",
+      "variant": "16x19",
+      "version": "v4",
+      "releaseYear": 2022,
+      "headSize": 97,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 317,
+      "stiffness": 62,
+      "beam": [20.6, 20.6, 20.6],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    }
+  ]
+}

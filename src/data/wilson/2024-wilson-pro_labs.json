@@ -1,0 +1,42 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-blade-pro-98-18x20-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade Pro (Pro Labs)",
+      "variant": "98 18x20",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 341,
+      "stiffness": 60,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 9T,8H,10H"
+    },
+    {
+      "id": "wilson-blade-pro-98-16x19-v9-2024",
+      "brand": "Wilson",
+      "product": "Blade Pro (Pro Labs)",
+      "variant": "98 16x19",
+      "version": "v9",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 337,
+      "stiffness": 61,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

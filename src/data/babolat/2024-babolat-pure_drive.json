@@ -1,0 +1,23 @@
+{
+  "rackets": [
+    {
+      "id": "babolat-pure-drive-30th-anniversary-2024",
+      "brand": "Babolat",
+      "product": "Pure Drive",
+      "variant": "30th Anniversary",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 320,
+      "stiffness": 71,
+      "beam": [23, 26, 23],
+      "weight": 318,
+      "recommendedTension": "50-59 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

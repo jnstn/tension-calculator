@@ -1,0 +1,118 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-pro-staff-six.one-100-v14-2023",
+      "brand": "Wilson",
+      "product": "Pro Staff",
+      "variant": "Six.One 100",
+      "version": "v14",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 326,
+      "stiffness": 65,
+      "beam": [22.5, 22.5, 22.5],
+      "weight": 323,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,7H,9H"
+    },
+    {
+      "id": "wilson-pro-staff-x-v14-2023",
+      "brand": "Wilson",
+      "product": "Pro Staff",
+      "variant": "X",
+      "version": "v14",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 322,
+      "stiffness": 66,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 332,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-pro-staff-97ul-v14-2023",
+      "brand": "Wilson",
+      "product": "Pro Staff",
+      "variant": "97UL",
+      "version": "v14",
+      "releaseYear": 2023,
+      "headSize": 97,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 301,
+      "stiffness": 67,
+      "beam": [23.5, 23.5, 23.5],
+      "weight": 283,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-pro-staff-97l-v14-2023",
+      "brand": "Wilson",
+      "product": "Pro Staff",
+      "variant": "97L",
+      "version": "v14",
+      "releaseYear": 2023,
+      "headSize": 97,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": null,
+      "stiffness": 68,
+      "beam": [23.5, 23.5, 23.5],
+      "weight": 306,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-pro-staff-97-v14-2023",
+      "brand": "Wilson",
+      "product": "Pro Staff",
+      "variant": "97",
+      "version": "v14",
+      "releaseYear": 2023,
+      "headSize": 97,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": null,
+      "stiffness": 66,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 332,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-pro-staff-six.one-95-v14-2023",
+      "brand": "Wilson",
+      "product": "Pro Staff",
+      "variant": "Six.One 95",
+      "version": "v14",
+      "releaseYear": 2023,
+      "headSize": 95,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": null,
+      "stiffness": 64,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 349,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 8T 10T 8H 10H"
+    }
+  ]
+}
