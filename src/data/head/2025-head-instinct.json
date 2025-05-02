@@ -1,0 +1,80 @@
+{
+  "rackets": [
+    {
+      "id": "head-instinct-pwr-115-auxetic-2_0",
+      "brand": "Head",
+      "product": "Instinct",
+      "variant": "PWR 115",
+      "version": "2025 - Auxetic 2.0",
+      "releaseYear": 2025,
+      "headSize": 115,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 311,
+      "stiffness": 67,
+      "beam": [28, 29, 29],
+      "weight": 244,
+      "recommendedTension": "52-62 pounds",
+      "stringingInstructions": "Mains skip: 8T,7H,9H"
+    },
+    {
+      "id": "head-instinct-pwr-110-auxetic-2_0",
+      "brand": "Head",
+      "product": "Instinct",
+      "variant": "PWR 110",
+      "version": "2025 - Auxetic 2.0",
+      "releaseYear": 2025,
+      "headSize": 110,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 309,
+      "stiffness": 67,
+      "beam": [26, 25, 23],
+      "weight": 275,
+      "recommendedTension": "52-62 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-instinct-team-l-auxetic-2_0",
+      "brand": "Head",
+      "product": "Instinct",
+      "variant": "Team L",
+      "version": "2025 - Auxetic 2.0",
+      "releaseYear": 2025,
+      "headSize": 107,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 300,
+      "stiffness": 62,
+      "beam": [23, 26, 23],
+      "weight": 283,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "head-instinct-mp-auxetic-2_0",
+      "brand": "Head",
+      "product": "Instinct",
+      "variant": "MP",
+      "version": "2025 - Auxetic 2.0",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 317,
+      "stiffness": 64,
+      "beam": [23, 26, 23],
+      "weight": 318,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    }
+  ]
+}

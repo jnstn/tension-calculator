@@ -1,0 +1,137 @@
+{
+  "rackets": [
+    {
+      "id": "head-boom-mp-l-mint-auxetic-2_0",
+      "brand": "Head",
+      "product": "Boom",
+      "variant": "MP L Mint",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 301,
+      "stiffness": 62,
+      "beam": [23, 24, 22],
+      "weight": 283,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-boom-team-l-mint-auxetic-2_0",
+      "brand": "Head",
+      "product": "Boom",
+      "variant": "Team L Mint",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 107,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 310,
+      "stiffness": 63,
+      "beam": [25, 25, 22],
+      "weight": 275,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-boom-mp-mint-auxetic-2_0",
+      "brand": "Head",
+      "product": "Boom",
+      "variant": "MP Mint",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 317,
+      "stiffness": 62,
+      "beam": [23, 24, 22],
+      "weight": 312,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-boom-mp-l-auxetic-2_0",
+      "brand": "Head",
+      "product": "Boom",
+      "variant": "MP L",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 301,
+      "stiffness": 62,
+      "beam": [23, 24, 22],
+      "weight": 283,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-boom-team-auxetic-2_0",
+      "brand": "Head",
+      "product": "Boom",
+      "variant": "Team",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 102,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 309,
+      "stiffness": 62,
+      "beam": [25, 25, 22],
+      "weight": 289,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-boom-mp-auxetic-2_0",
+      "brand": "Head",
+      "product": "Boom",
+      "variant": "MP",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 317,
+      "stiffness": 62,
+      "beam": [23, 24, 23],
+      "weight": 312,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-boom-pro-auxetic-2_0",
+      "brand": "Head",
+      "product": "Boom",
+      "variant": "Pro",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 323,
+      "stiffness": 64,
+      "beam": [22, 22, 21.5],
+      "weight": 326,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "rackets": [
+    {
+      "id": "head-extreme-tour-graphene-360-plus",
+      "brand": "Head",
+      "product": "Extreme",
+      "variant": "Tour",
+      "version": "2020 - Graphene 360+",
+      "releaseYear": 2020,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 318,
+      "stiffness": 65,
+      "beam": [22, 23, 21],
+      "weight": 323,
+      "recommendedTension": null,
+      "stringingInstructions": null
+    },
+    {
+      "id": "head-extreme-mp-graphene-360-plus",
+      "brand": "Head",
+      "product": "Extreme",
+      "variant": "MP",
+      "version": "2020 - Graphene 360+",
+      "releaseYear": 2020,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 325,
+      "stiffness": 66,
+      "beam": [23, 26, 21],
+      "weight": 318,
+      "recommendedTension": null,
+      "stringingInstructions": null
+    }
+  ]
+}

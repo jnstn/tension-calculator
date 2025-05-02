@@ -1,0 +1,61 @@
+{
+  "rackets": [
+    {
+      "id": "head-radical-elite-auxetic-2_0",
+      "brand": "Head",
+      "product": "Radical",
+      "variant": "Elite",
+      "version": "2025 - Auxetic 2.0",
+      "releaseYear": 2025,
+      "headSize": 102,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 306,
+      "stiffness": 64,
+      "beam": [22, 25, 23],
+      "weight": 50,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T, 8H"
+    },
+    {
+      "id": "head-radical-mp-auxetic-2_0",
+      "brand": "Head",
+      "product": "Radical",
+      "variant": "MP",
+      "version": "2025 - Auxetic 2.0",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 323,
+      "stiffness": 66,
+      "beam": [20, 23, 21],
+      "weight": 318,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T, 8H"
+    },
+    {
+      "id": "head-radical-pro-auxetic-2_0",
+      "brand": "Head",
+      "product": "Radical",
+      "variant": "Pro",
+      "version": "2025 - Auxetic 2.0",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 329,
+      "stiffness": 65,
+      "beam": [20, 21.5, 21],
+      "weight": 332,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T, 8H"
+    }
+  ]
+}

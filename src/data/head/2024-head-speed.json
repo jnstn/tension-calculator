@@ -1,0 +1,118 @@
+{
+  "rackets": [
+    {
+      "id": "head-speed-team-auxetic-2_0",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "Team",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 105,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 306,
+      "stiffness": 61,
+      "beam": [24, 24, 24],
+      "weight": 283,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-speed-mp-l-auxetic-2_0",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "MP L",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 313,
+      "stiffness": 60,
+      "beam": [23, 23, 23],
+      "weight": 295,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-speed-mp-auxetic-2_0",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "MP",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 330,
+      "stiffness": 60,
+      "beam": [23, 23, 23],
+      "weight": 315,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-speed-pro-auxetic-2_0",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "Pro",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 333,
+      "stiffness": 60,
+      "beam": [23, 23, 23],
+      "weight": 329,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    },
+    {
+      "id": "head-speed-mp-legend-auxetic-2_0",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "MP Legend",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 330,
+      "stiffness": 60,
+      "beam": [23, 23, 23],
+      "weight": 315,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-speed-pro-legend-auxetic-2_0",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "Pro Legend",
+      "version": "2024 - Auxetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 333,
+      "stiffness": 60,
+      "beam": [23, 23, 23],
+      "weight": 329,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "rackets": [
+    {
+      "id": "head-radical-team-auxetic-1_0",
+      "brand": "Head",
+      "product": "Radical",
+      "variant": "Team",
+      "version": "2023 - Auxetic 1.0",
+      "releaseYear": 2023,
+      "headSize": 102,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 305,
+      "stiffness": 63,
+      "beam": [22, 25, 23],
+      "weight": 295,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T, 8H"
+    },
+    {
+      "id": "head-radical-pro-auxetic-1_0",
+      "brand": "Head",
+      "product": "Radical",
+      "variant": "Pro",
+      "version": "2023 - Auxetic 1.0",
+      "releaseYear": 2023,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 325,
+      "stiffness": 64,
+      "beam": [20, 21.5, 21],
+      "weight": 332,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T, 8H"
+    }
+  ]
+}

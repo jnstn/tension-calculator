@@ -10,7 +10,8 @@ import { Switch } from "./components/ui/switch";
 import { Card, CardContent } from "./components/ui/card";
 import { Label } from "./components/ui/label";
 import { RadioGroup, RadioGroupItem } from "./components/ui/radio-group";
-import racketsData from "./data/rackets.json";
+// import racketsData from "./data/rackets.json";
+import { racketsData } from "./data/data";
 
 /**
  * estimateDynamicTension()
@@ -142,7 +143,7 @@ export default function TensionCalculator() {
 
   // Load racket data on mount
   useEffect(() => {
-    setRackets(racketsData.rackets);
+    setRackets(racketsData);
   }, []);
 
   // Apply dark mode based on user preference

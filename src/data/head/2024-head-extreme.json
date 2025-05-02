@@ -1,0 +1,61 @@
+{
+  "rackets": [
+    {
+      "id": "head-extreme-mp-l-auxetic-2_0",
+      "brand": "Head",
+      "product": "Extreme",
+      "variant": "MP L",
+      "version": "2024 - Auexetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 308,
+      "stiffness": 64,
+      "beam": [23, 26, 21],
+      "weight": 295,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-extreme-mp-auxetic-2_0",
+      "brand": "Head",
+      "product": "Extreme",
+      "variant": "MP",
+      "version": "2024 - Auexetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 323,
+      "stiffness": 66,
+      "beam": [23, 26, 21],
+      "weight": 318,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,7H,9H"
+    },
+    {
+      "id": "head-extreme-pro-auxetic-2_0",
+      "brand": "Head",
+      "product": "Extreme",
+      "variant": "Pro",
+      "version": "2024 - Auexetic 2.0",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 322,
+      "stiffness": 64,
+      "beam": [22, 23, 21],
+      "weight": 323,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "rackets": [
+    {
+      "id": "head-gravity-team-auxetic-1_0",
+      "brand": "Head",
+      "product": "Gravity",
+      "variant": "Team",
+      "version": "2023 - Auxetic 1.0",
+      "releaseYear": 2023,
+      "headSize": 104,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 311,
+      "stiffness": 60,
+      "beam": [24, 24, 24],
+      "weight": 301,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-gravity-mp-auxetic-1_0",
+      "brand": "Head",
+      "product": "Gravity",
+      "variant": "MP",
+      "version": "2023 - Auxetic 1.0",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 319,
+      "stiffness": 59,
+      "beam": [22, 22, 22],
+      "weight": 312,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

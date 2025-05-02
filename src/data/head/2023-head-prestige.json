@@ -1,0 +1,99 @@
+{
+  "rackets": [
+    {
+      "id": "head-prestige-mp-l-auxetic-2_0",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "MP L",
+      "version": "2023 - Auxetic 2.0",
+      "releaseYear": 2023,
+      "headSize": 99,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 309,
+      "stiffness": 61,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 318,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "head-prestige-tour-auxetic-2_0",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "Tour",
+      "version": "2023 - Auxetic 2.0",
+      "releaseYear": 2023,
+      "headSize": 95,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 330,
+      "stiffness": 62,
+      "beam": [22, 22, 22],
+      "weight": 332,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "head-prestige-pro-auxetic-2_0",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "Pro",
+      "version": "2023 - Auxetic 2.0",
+      "releaseYear": 2023,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 324,
+      "stiffness": 58,
+      "beam": [20, 20, 20],
+      "weight": 337,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    },
+    {
+      "id": "head-prestige-pro-16x19-auxetic-2_0",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "Pro 16x19",
+      "version": "2023 - Auxetic 2.0",
+      "releaseYear": 2023,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 325,
+      "stiffness": 58,
+      "beam": [20, 20, 20],
+      "weight": 337,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,7H,9H"
+    },
+    {
+      "id": "head-prestige-mp-auxetic-2_0",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "MP",
+      "version": "2023 - Auxetic 2.0",
+      "releaseYear": 2023,
+      "headSize": 99,
+      "pattern": {
+        "mains": 18,
+        "crosses": 19
+      },
+      "swingweight": 327,
+      "stiffness": 62,
+      "beam": [21.5, 21.5, 21.5],
+      "weight": 326,
+      "recommendedTension": "48-57 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    }
+  ]
+}

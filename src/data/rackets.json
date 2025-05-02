@@ -1,45 +1,6 @@
 {
   "rackets": [
     {
-      "id": "head-speed-pro-graphene-360-plus",
-      "brand": "Head",
-      "product": "Speed",
-      "variant": "Pro",
-      "version": "Graphene 360+",
-      "releaseYear": 2019,
-      "headSize": 100,
-      "pattern": { "mains": 18, "crosses": 20 },
-      "swingweight": 320,
-      "stiffness": 62,
-      "beam": [23, 23, 23]
-    },
-    {
-      "id": "head-prestige-tour-auxetic-2023",
-      "brand": "Head",
-      "product": "Prestige",
-      "variant": "Tour",
-      "version": "Auxetic",
-      "releaseYear": 2023,
-      "headSize": 95,
-      "pattern": { "mains": 18, "crosses": 19 },
-      "swingweight": 324,
-      "stiffness": 61,
-      "beam": [22]
-    },
-    {
-      "id": "head-radical-pro-graphene-360",
-      "brand": "Head",
-      "product": "Radical",
-      "variant": "Pro",
-      "version": "Graphene 360",
-      "releaseYear": 2018,
-      "headSize": 98,
-      "pattern": { "mains": 16, "crosses": 19 },
-      "swingweight": 330,
-      "stiffness": 65,
-      "beam": [20, 21.5, 21]
-    },
-    {
       "id": "wilson-blade-98-16x19-v8",
       "brand": "Wilson",
       "product": "Blade",
