@@ -1,0 +1,80 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-burn-burn-100uls-v5-2023",
+      "brand": "Wilson",
+      "product": "Burn",
+      "variant": "100ULS",
+      "version": "v5",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 18,
+        "crosses": 16
+      },
+      "swingweight": 301,
+      "stiffness": 67,
+      "beam": [23.5, 25, 23.5],
+      "weight": 275,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 9T,8H,10H"
+    },
+    {
+      "id": "wilson-burn-burn-100ls-v5-2023",
+      "brand": "Wilson",
+      "product": "Burn",
+      "variant": "100LS",
+      "version": "v5",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 18,
+        "crosses": 16
+      },
+      "swingweight": 313,
+      "stiffness": 72,
+      "beam": [23.5, 25, 23.5],
+      "weight": 298,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 9T,8H,10H"
+    },
+    {
+      "id": "wilson-burn-burn-100s-v5-2023",
+      "brand": "Wilson",
+      "product": "Burn",
+      "variant": "100S",
+      "version": "v5",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 18,
+        "crosses": 16
+      },
+      "swingweight": 325,
+      "stiffness": 73,
+      "beam": [23.5, 25, 23.5],
+      "weight": 320,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 9T,8H,10H"
+    },
+    {
+      "id": "wilson-burn-burn-100-v5-2023",
+      "brand": "Wilson",
+      "product": "Burn",
+      "variant": "100",
+      "version": "v5",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 320,
+      "stiffness": 72,
+      "beam": [23.5, 25, 23.5],
+      "weight": 318,
+      "recommendedTension": "50-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

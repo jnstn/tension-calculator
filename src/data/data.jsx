@@ -49,6 +49,9 @@ HEAD Rackets
 // Wilson Blade
 import blade2024 from "./wilson/2024-wilson-blade.json";
 
+// Wilson Burn
+import burn2023 from "./wilson/2023-wilson-burn.json";
+
 // Wilson Clash
 import clash2022 from "./wilson/2022-wilson-clash.json";
 import clash2025 from "./wilson/2025-wilson-clash.json";
@@ -95,6 +98,7 @@ export const racketsData = [
   ...speed2024.rackets,
   // Wilson
   ...blade2024.rackets,
+  ...burn2023.rackets,
   ...clash2022.rackets,
   ...clash2025.rackets,
   ...proLabs2022.rackets,
