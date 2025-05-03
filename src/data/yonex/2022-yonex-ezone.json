@@ -1,0 +1,232 @@
+{
+  "rackets": [
+    {
+      "id": "yonex-ezone-100l-aqua-night-black-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100L Aqua Night Black",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 308,
+      "stiffness": 69,
+      "beam": [23.8, 26.5, 22.5],
+      "weight": 298,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-ezone-100-aqua-night-black-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100 Aqua Night Black",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 317,
+      "stiffness": 67,
+      "beam": [23.8, 26.5, 22.5],
+      "weight": 318,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-ezone-98-aqua-night-black-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "98 Aqua Night Black",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 314,
+      "stiffness": 65,
+      "beam": [23.5, 24.5, 19.5],
+      "weight": 323,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-98-tour-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "98 Tour",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 332,
+      "stiffness": 64,
+      "beam": [23.5, 24.5, 19.5],
+      "weight": 332,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-110-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "110",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 110,
+      "pattern": {
+        "mains": 16,
+        "crosses": 18
+      },
+      "swingweight": 302,
+      "stiffness": 66,
+      "beam": [26, 29, 24],
+      "weight": 272,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-105-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "105",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 105,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 303,
+      "stiffness": 67,
+      "beam": [24, 26.5, 23.5],
+      "weight": 289,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-100sl-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100SL",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 18
+      },
+      "swingweight": 303,
+      "stiffness": 68,
+      "beam": [23.8, 26.5, 22.5],
+      "weight": 283,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-ezone-100+-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100+",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 336,
+      "stiffness": 67,
+      "beam": [23.8, 26.5, 22.5],
+      "weight": 318,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-ezone-98l-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "98L",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 310,
+      "stiffness": 65,
+      "beam": [23.5, 24.5, 19.5],
+      "weight": 301,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-100l-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100L",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 308,
+      "stiffness": 69,
+      "beam": [23.8, 26.5, 22.5],
+      "weight": 298,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-ezone-98+-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "98+",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 333,
+      "stiffness": 64,
+      "beam": [23.5, 24.5, 19.5],
+      "weight": 323,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-98-2022",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "98",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 314,
+      "stiffness": 65,
+      "beam": [23.5, 24.5, 19.5],
+      "weight": 323,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    }
+  ]
+}

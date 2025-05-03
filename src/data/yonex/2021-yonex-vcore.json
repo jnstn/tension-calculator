@@ -1,0 +1,137 @@
+{
+  "rackets": [
+    {
+      "id": "yonex-vcore-100plus-2021",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "100+",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 335,
+      "stiffness": 64,
+      "beam": [25.3, 25.3, 22],
+      "weight": 318,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-98plus-2021",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "98+",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 333,
+      "stiffness": 62,
+      "beam": [23, 23, 21],
+      "weight": 323,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-98-tour-2021",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "98 Tour",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 326,
+      "stiffness": 63,
+      "beam": [23, 23, 21],
+      "weight": 332,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-95-2021",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "95",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 95,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 321,
+      "stiffness": 61,
+      "beam": [22, 22, 21],
+      "weight": 326,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-98-2021",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "98",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 318,
+      "stiffness": 62,
+      "beam": [23, 23, 21],
+      "weight": 323,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-100-2021",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "100",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 322,
+      "stiffness": 65,
+      "beam": [25.3, 25.3, 22],
+      "weight": 320,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-100l-2021",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "100L",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 312,
+      "stiffness": 66,
+      "beam": [25.3, 25.3, 22],
+      "weight": 298,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    }
+  ]
+}

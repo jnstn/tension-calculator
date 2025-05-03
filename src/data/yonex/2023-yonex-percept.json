@@ -1,0 +1,99 @@
+{
+  "rackets": [
+    {
+      "id": "yonex-percept-100d-2023",
+      "brand": "Yonex",
+      "product": "Percept",
+      "variant": "100D",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 18,
+        "crosses": 19
+      },
+      "swingweight": 318,
+      "stiffness": 66,
+      "beam": [23, 23, 23],
+      "weight": 320,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    },
+    {
+      "id": "yonex-percept-100-2023",
+      "brand": "Yonex",
+      "product": "Percept",
+      "variant": "100",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 318,
+      "stiffness": 66,
+      "beam": [23, 23, 23],
+      "weight": 315,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "yonex-percept-97d-2023",
+      "brand": "Yonex",
+      "product": "Percept",
+      "variant": "97D",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 97,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 329,
+      "stiffness": 62,
+      "beam": [21, 21, 21],
+      "weight": 337,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    },
+    {
+      "id": "yonex-percept-97h-2023",
+      "brand": "Yonex",
+      "product": "Percept",
+      "variant": "97H",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 97,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 333,
+      "stiffness": 62,
+      "beam": [21, 21, 21],
+      "weight": 346,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-percept-97-2023",
+      "brand": "Yonex",
+      "product": "Percept",
+      "variant": "97",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 97,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 315,
+      "stiffness": 60,
+      "beam": [21, 21, 21],
+      "weight": 326,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    }
+  ]
+}

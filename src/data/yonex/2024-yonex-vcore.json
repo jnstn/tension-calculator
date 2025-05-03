@@ -1,0 +1,112 @@
+{
+  "rackets": [
+    {
+      "id": "yonex-vcore-98-2024",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "98",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 318,
+      "stiffness": 62,
+      "beam": [23, 23, 21],
+      "weight": 323,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-95-2024",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "95",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 95,
+      "pattern": {
+        "mains": 16,
+        "crosses": 20
+      },
+      "swingweight": 321,
+      "stiffness": 61,
+      "beam": [22, 22, 21],
+      "weight": 326,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-100-2024",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "100",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 322,
+      "stiffness": 65,
+      "beam": [25.3, 25.3, 22],
+      "weight": 320,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-100l-2024",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "100L",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 312,
+      "stiffness": 66,
+      "beam": [25.3, 25.3, 22],
+      "weight": 298,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-vcore-feel-2024",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "Feel",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": null,
+      "pattern": null,
+      "swingweight": null,
+      "stiffness": null,
+      "beam": [],
+      "weight": null,
+      "recommendedTension": null,
+      "stringingInstructions": null
+    },
+    {
+      "id": "yonex-vcore-game-2024",
+      "brand": "Yonex",
+      "product": "VCORE",
+      "variant": "Game",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": null,
+      "pattern": null,
+      "swingweight": null,
+      "stiffness": null,
+      "beam": [],
+      "weight": null,
+      "recommendedTension": null,
+      "stringingInstructions": null
+    }
+  ]
+}

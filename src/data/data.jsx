@@ -74,6 +74,21 @@ import shift2023 from "./wilson/2023-wilson-shift.json";
 import ultra2022 from "./wilson/2022-wilson-ultra.json";
 
 /* --------------------
+Yonex Rackets
+-------------------- */
+
+// Yonex Ezone
+import ezone2022 from "./yonex/2022-yonex-ezone.json";
+import ezone2025 from "./yonex/2025-yonex-ezone.json";
+
+// Yonex Percept
+import percept2023 from "./yonex/2023-yonex-percept.json";
+
+// Yonex Vcore
+import vcore2021 from "./yonex/2021-yonex-vcore.json";
+import vcore2024 from "./yonex/2024-yonex-vcore.json";
+
+/* --------------------
 Export Data
 -------------------- */
 
@@ -108,4 +123,10 @@ export const racketsData = [
   ...rf2024.rackets,
   ...shift2023.rackets,
   ...ultra2022.rackets,
+  // Yonex
+  ...ezone2022.rackets,
+  ...ezone2025.rackets,
+  ...percept2023.rackets,
+  ...vcore2021.rackets,
+  ...vcore2024.rackets,
 ];

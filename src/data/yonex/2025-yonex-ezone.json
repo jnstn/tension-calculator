@@ -1,0 +1,175 @@
+{
+  "rackets": [
+    {
+      "id": "yonex-ezone-110-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "110",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 110,
+      "pattern": {
+        "mains": 16,
+        "crosses": 18
+      },
+      "swingweight": 301,
+      "stiffness": 65,
+      "beam": [26, 29, 24],
+      "weight": 269,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-105-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "105",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 105,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 312,
+      "stiffness": 66,
+      "beam": [24, 26.5, 23],
+      "weight": 289,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-100-sl-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100 SL",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 18
+      },
+      "swingweight": 297,
+      "stiffness": 66,
+      "beam": [24.5, 26.5, 23],
+      "weight": 283,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-ezone-100l-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100L",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 310,
+      "stiffness": 67,
+      "beam": [24.5, 26.5, 23],
+      "weight": 301,
+      "recommendedTension": "40-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-ezone-98+-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "98+",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 334,
+      "stiffness": 62,
+      "beam": [23.8, 24.5, 19.5],
+      "weight": 323,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-100+-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100+",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 332,
+      "stiffness": 68,
+      "beam": [24.5, 26.5, 23],
+      "weight": 318,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    },
+    {
+      "id": "yonex-ezone-98-tour-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "98 Tour",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 335,
+      "stiffness": 62,
+      "beam": [23.8, 24.5, 19.5],
+      "weight": 332,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-98-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "98",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 320,
+      "stiffness": 63,
+      "beam": [23.8, 24.5, 19.5],
+      "weight": 323,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "yonex-ezone-100-2025",
+      "brand": "Yonex",
+      "product": "EZONE",
+      "variant": "100",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 315,
+      "stiffness": 68,
+      "beam": [24.5, 26.5, 23],
+      "weight": 318,
+      "recommendedTension": "45-60 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,8H"
+    }
+  ]
+}
