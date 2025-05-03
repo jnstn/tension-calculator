@@ -1,0 +1,118 @@
+{
+  "rackets": [
+    {
+      "id": "tecnifibre-tfight-285-2025",
+      "brand": "Tecnifibre",
+      "product": "TFight",
+      "variant": "285",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 303,
+      "stiffness": 63,
+      "beam": [23, 23, 23],
+      "weight": 298,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "tecnifibre-tfight-270-2025",
+      "brand": "Tecnifibre",
+      "product": "TFight",
+      "variant": "270",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 300,
+      "stiffness": 65,
+      "beam": [23, 23, 23],
+      "weight": 283,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "tecnifibre-tfight-300-2025",
+      "brand": "Tecnifibre",
+      "product": "TFight",
+      "variant": "300",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 318,
+      "stiffness": 65,
+      "beam": [22.5, 22.5, 22.5],
+      "weight": 318,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "tecnifibre-tfight-300s-2025",
+      "brand": "Tecnifibre",
+      "product": "TFight",
+      "variant": "300S",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 321,
+      "stiffness": 66,
+      "beam": [22.5, 22.5, 22.5],
+      "weight": 318,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "tecnifibre-tfight-305s-2025",
+      "brand": "Tecnifibre",
+      "product": "TFight",
+      "variant": "305S",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 19
+      },
+      "swingweight": 324,
+      "stiffness": 63,
+      "beam": [22.5, 22.5, 22.5],
+      "weight": 320,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    },
+    {
+      "id": "tecnifibre-tfight-315s-2025",
+      "brand": "Tecnifibre",
+      "product": "TFight",
+      "variant": "315S",
+      "version": "2025",
+      "releaseYear": 2025,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 325,
+      "stiffness": 65,
+      "beam": [22.5, 22.5, 22.5],
+      "weight": 332,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

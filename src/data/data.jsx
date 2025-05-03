@@ -43,7 +43,18 @@ import radical2025 from "./head/2025-head-radical.json";
 import speed2024 from "./head/2024-head-speed.json";
 
 /* --------------------
-HEAD Rackets
+
+ Rackets
+-------------------- */
+
+// TF40
+import tf402024 from "./tecnifibre/2024-tecnifibre-tf40.json";
+
+// TFight
+import tfight2025 from "./tecnifibre/2025-tecnifibre-tfight.json";
+
+/* --------------------
+Wilson Rackets
 -------------------- */
 
 // Wilson Blade
@@ -111,6 +122,9 @@ export const racketsData = [
   ...radical2023.rackets,
   ...radical2025.rackets,
   ...speed2024.rackets,
+  // Tecnifibre
+  ...tf402024.rackets,
+  ...tfight2025.rackets,
   // Wilson
   ...blade2024.rackets,
   ...burn2023.rackets,

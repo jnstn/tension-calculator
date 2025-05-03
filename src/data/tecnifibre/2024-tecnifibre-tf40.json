@@ -1,0 +1,80 @@
+{
+  "rackets": [
+    {
+      "id": "tecnifibre-tf40-290g-(16x19)-2024",
+      "brand": "Tecnifibre",
+      "product": "TF40",
+      "variant": "290g (16x19)",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 312,
+      "stiffness": 65,
+      "beam": [22, 22, 22],
+      "weight": 303,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "tecnifibre-tf40-305g-(18x20)-2024",
+      "brand": "Tecnifibre",
+      "product": "TF40",
+      "variant": "305g (18x20)",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 330,
+      "stiffness": 64,
+      "beam": [22, 22, 22],
+      "weight": 323,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    },
+    {
+      "id": "tecnifibre-tf40-305g-(16x19)-2024",
+      "brand": "Tecnifibre",
+      "product": "TF40",
+      "variant": "305g (16x19)",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 320,
+      "stiffness": 64,
+      "beam": [22, 22, 22],
+      "weight": 320,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "tecnifibre-tf40-315g-(16x19)-2024",
+      "brand": "Tecnifibre",
+      "product": "TF40",
+      "variant": "315g (16x19)",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 319,
+      "stiffness": 63,
+      "beam": [22, 22, 22],
+      "weight": 332,
+      "recommendedTension": "49-55 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    }
+  ]
+}
