@@ -1,0 +1,80 @@
+{
+  "rackets": [
+    {
+      "id": "head-prestige-pro-auxetic-1_0-2021",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "Pro",
+      "version": "2021 - Auxetic 1.0",
+      "releaseYear": 2021,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 325,
+      "stiffness": 60,
+      "beam": [20],
+      "weight": 337,
+      "recommendedTension": "48-057 lbs",
+      "stringingInstructions": "8T,10T,8H,10H"
+    },
+    {
+      "id": "head-prestige-mp-auxetic-1_0-2021",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "MP",
+      "version": "2021 - Auxetic 1.0",
+      "releaseYear": 2021,
+      "headSize": 99,
+      "pattern": {
+        "mains": 18,
+        "crosses": 19
+      },
+      "swingweight": 334,
+      "stiffness": 66,
+      "beam": [21.5],
+      "weight": 326,
+      "recommendedTension": "48-057 lbs",
+      "stringingInstructions": "8T,10T,8H,10H"
+    },
+    {
+      "id": "head-prestige-tour-auxetic-1_0-2021",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "Tour",
+      "version": "2021 - Auxetic 1.0",
+      "releaseYear": 2021,
+      "headSize": 95,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 331,
+      "stiffness": 65,
+      "beam": [22],
+      "weight": 335,
+      "recommendedTension": "48-057 lbs",
+      "stringingInstructions": "8T,8H"
+    },
+    {
+      "id": "head-prestige-mp-l-auxetic-1_0-2021",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "MP L",
+      "version": "2021 - Auxetic 1.0",
+      "releaseYear": 2021,
+      "headSize": 99,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 313,
+      "stiffness": 65,
+      "beam": [21.5],
+      "weight": 315,
+      "recommendedTension": "48-057 lbs",
+      "stringingInstructions": "7T,9T,7H,9H"
+    }
+  ]
+}

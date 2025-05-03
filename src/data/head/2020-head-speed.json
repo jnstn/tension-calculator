@@ -1,0 +1,68 @@
+{
+  "rackets": [
+    {
+      "id": "head-speed-pro-graphene-360-plus-2020",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "Pro",
+      "version": "2020 - Graphene 360+",
+      "releaseYear": 2020,
+      "headSize": 100,
+      "pattern": { "mains": 18, "crosses": 20 },
+      "weight": 310,
+      "balance": 315,
+      "beam": [23],
+      "stiffness": 62,
+      "stringingInstructions": "8T,10T,8H,10H",
+      "recommendedTension": "48-57 lbs"
+    },
+    {
+      "id": "head-speed-mp-graphene-360-plus-2020",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "MP",
+      "version": "2020 - Graphene 360+",
+      "releaseYear": 2020,
+      "headSize": 100,
+      "pattern": { "mains": 16, "crosses": 19 },
+      "weight": 300,
+      "balance": 320,
+      "beam": [23],
+      "stiffness": 62,
+      "stringingInstructions": "7T,9T,7H,9H",
+      "recommendedTension": "48-57 lbs"
+    },
+    {
+      "id": "head-speed-mp-l-graphene-360-plus-2020",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "MP L",
+      "version": "2020 - Graphene 360+",
+      "releaseYear": 2020,
+      "headSize": 100,
+      "pattern": { "mains": 16, "crosses": 19 },
+      "weight": 275,
+      "balance": 330,
+      "beam": [23],
+      "stiffness": 62,
+      "stringingInstructions": "7T,9T,7H,9H",
+      "recommendedTension": "48-57 lbs"
+    },
+    {
+      "id": "head-speed-team-graphene-360-plus-2020",
+      "brand": "Head",
+      "product": "Speed",
+      "variant": "Team",
+      "version": "2020 - Graphene 360+",
+      "releaseYear": 2020,
+      "headSize": 100,
+      "pattern": { "mains": 16, "crosses": 19 },
+      "weight": 285,
+      "balance": 320,
+      "beam": [25],
+      "stiffness": 62,
+      "stringingInstructions": "7T,9T,7H,9H",
+      "recommendedTension": "48-57 lbs"
+    }
+  ]
+}

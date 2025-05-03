@@ -45,6 +45,9 @@ import gravity2025 from "./head/2025-head-gravity.json";
 import instinct2025 from "./head/2025-head-instinct.json";
 
 // HEAD Prestige
+import prestige2001 from "./head/2001-head-prestige.json";
+import prestige2018 from "./head/2018-head-prestige.json";
+import prestige2021 from "./head/2021-head-prestige.json";
 import prestige2023 from "./head/2023-head-prestige.json";
 
 // HEAD Radical
@@ -53,6 +56,8 @@ import radical2023 from "./head/2023-head-radical.json";
 import radical2025 from "./head/2025-head-radical.json";
 
 // HEAD Speed
+import speed2020 from "./head/2020-head-speed.json";
+import speed2022 from "./head/2022-head-speed.json";
 import speed2024 from "./head/2024-head-speed.json";
 
 /* --------------------
@@ -76,6 +81,7 @@ import blade2024 from "./wilson/2024-wilson-blade.json";
 import burn2023 from "./wilson/2023-wilson-burn.json";
 
 // Wilson Clash
+import clash2019 from "./wilson/2019-wilson-clash.json";
 import clash2022 from "./wilson/2022-wilson-clash.json";
 import clash2025 from "./wilson/2025-wilson-clash.json";
 
@@ -133,10 +139,15 @@ export const racketsData = [
   ...gravity2023.rackets,
   ...gravity2025.rackets,
   ...instinct2025.rackets,
+  ...prestige2001.rackets,
+  ...prestige2018.rackets,
+  ...prestige2021.rackets,
   ...prestige2023.rackets,
   ...radical2021.rackets,
   ...radical2023.rackets,
   ...radical2025.rackets,
+  ...speed2020.rackets,
+  ...speed2022.rackets,
   ...speed2024.rackets,
   // Tecnifibre
   ...tf402024.rackets,
@@ -144,6 +155,7 @@ export const racketsData = [
   // Wilson
   ...blade2024.rackets,
   ...burn2023.rackets,
+  ...clash2019.rackets,
   ...clash2022.rackets,
   ...clash2025.rackets,
   ...proLabs2022.rackets,

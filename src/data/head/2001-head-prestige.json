@@ -1,0 +1,61 @@
+{
+  "rackets": [
+    {
+      "id": "head-iprestige-mp-2001",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "i.Prestige MP",
+      "version": "2001 - Intelligence",
+      "releaseYear": 2001,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 324,
+      "stiffness": 63,
+      "beam": [21, 21, 21],
+      "weight": 343,
+      "recommendedTension": "50-62 pounds",
+      "stringingInstructions": "Mains skip: 9T,8H,10H"
+    },
+    {
+      "id": "head-iprestige-mp-xl-2001",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "i.Prestige MP XL",
+      "version": "2001 - Intelligence",
+      "releaseYear": 2001,
+      "headSize": 98,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 327,
+      "stiffness": 62,
+      "beam": [21, 21, 21],
+      "weight": 335,
+      "recommendedTension": "50-62 pounds",
+      "stringingInstructions": "Mains skip: 9T,8H,10H"
+    },
+    {
+      "id": "head-iprestige-mid-2001",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "i.Prestige Mid",
+      "version": "2001 - Intelligence",
+      "releaseYear": 2001,
+      "headSize": 95,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 320,
+      "stiffness": 60,
+      "beam": [19, 19, 19],
+      "weight": 343,
+      "recommendedTension": "48-58 pounds",
+      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "rackets": [
+    {
+      "id": "head-prestige-graphene-touch-mid-2018",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "Mid",
+      "version": "2018 - Graphene Touch",
+      "releaseYear": 2018,
+      "headSize": 93,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 326,
+      "stiffness": 61,
+      "beam": [20],
+      "weight": 337,
+      "recommendedTension": "48-57 lbs",
+      "stringingInstructions": "8T,8H"
+    },
+    {
+      "id": "head-prestige-graphene-touch-tour-2018",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "Tour",
+      "version": "2018 - Graphene Touch",
+      "releaseYear": 2018,
+      "headSize": 99,
+      "pattern": {
+        "mains": 18,
+        "crosses": 19
+      },
+      "swingweight": 325,
+      "stiffness": 65,
+      "beam": [21.5],
+      "weight": 323,
+      "recommendedTension": "48-57 lbs",
+      "stringingInstructions": "8T,10T,8H,10H"
+    },
+    {
+      "id": "head-prestige-graphene-touch-mp-2018",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "MP",
+      "version": "2018 - Graphene Touch",
+      "releaseYear": 2018,
+      "headSize": 95,
+      "pattern": {
+        "mains": 18,
+        "crosses": 20
+      },
+      "swingweight": 321,
+      "stiffness": 65,
+      "beam": [21],
+      "weight": 337,
+      "recommendedTension": "48-57 lbs",
+      "stringingInstructions": "9T,8H,10H"
+    },
+    {
+      "id": "head-prestige-graphene-touch-pro-2018",
+      "brand": "Head",
+      "product": "Prestige",
+      "variant": "Pro",
+      "version": "2018 - Graphene Touch",
+      "releaseYear": 2018,
+      "headSize": 95,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 322,
+      "stiffness": 63,
+      "beam": [22],
+      "weight": 329,
+      "recommendedTension": "48-57 lbs",
+      "stringingInstructions": "8T,8H"
+    }
+  ]
+}

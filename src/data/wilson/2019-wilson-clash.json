@@ -1,0 +1,118 @@
+{
+  "rackets": [
+    {
+      "id": "wilson-clash-100-pro-2019",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100 Pro",
+      "version": "v1",
+      "releaseYear": 2019,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 322,
+      "stiffness": 55,
+      "beam": [24.5],
+      "weight": 326,
+      "recommendedTension": "48-58 lbs",
+      "stringingInstructions": "7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100-2019",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100",
+      "version": "v1",
+      "releaseYear": 2019,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 312,
+      "stiffness": 55,
+      "beam": [24.5],
+      "weight": 312,
+      "recommendedTension": "48-58 lbs",
+      "stringingInstructions": "7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-98-2019",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "98",
+      "version": "v1",
+      "releaseYear": 2019,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 326,
+      "stiffness": 55,
+      "beam": [24],
+      "weight": 326,
+      "recommendedTension": "48-58 lbs",
+      "stringingInstructions": "7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100l-2019",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100L",
+      "version": "v1",
+      "releaseYear": 2019,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 300,
+      "stiffness": 54,
+      "beam": [24.5],
+      "weight": 292,
+      "recommendedTension": "48-58 lbs",
+      "stringingInstructions": "7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-108-2019",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "108",
+      "version": "v1",
+      "releaseYear": 2019,
+      "headSize": 108,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 312,
+      "stiffness": 56,
+      "beam": [24.5],
+      "weight": 295,
+      "recommendedTension": "48-58 lbs",
+      "stringingInstructions": "7T,9T,7H,9H"
+    },
+    {
+      "id": "wilson-clash-100ul-2019",
+      "brand": "Wilson",
+      "product": "Clash",
+      "variant": "100UL",
+      "version": "v1",
+      "releaseYear": 2019,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 299,
+      "stiffness": 60,
+      "beam": [24.5],
+      "weight": 281,
+      "recommendedTension": "48-58 lbs",
+      "stringingInstructions": "7T,9T,7H,9H"
+    }
+  ]
+}
