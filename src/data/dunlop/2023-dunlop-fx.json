@@ -1,0 +1,99 @@
+{
+  "rackets": [
+    {
+      "id": "dunlop-fx-700-2023",
+      "brand": "Dunlop",
+      "product": "FX",
+      "variant": "700",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 107,
+      "pattern": {
+        "mains": 16,
+        "crosses": 18
+      },
+      "swingweight": 325,
+      "stiffness": 67,
+      "beam": [23, 27, 23],
+      "weight": 278,
+      "recommendedTension": "40-60 pounds",
+      "stringingInstructions": "Mains skip: 8T,8H"
+    },
+    {
+      "id": "dunlop-fx-500-lite-2023",
+      "brand": "Dunlop",
+      "product": "FX",
+      "variant": "500 Lite",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 18
+      },
+      "swingweight": 301,
+      "stiffness": 68,
+      "beam": [23, 26, 23],
+      "weight": 283,
+      "recommendedTension": "45-65 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "dunlop-fx-500-ls-2023",
+      "brand": "Dunlop",
+      "product": "FX",
+      "variant": "500 LS",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 305,
+      "stiffness": 67,
+      "beam": [23, 26, 23],
+      "weight": 301,
+      "recommendedTension": "45-65 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "dunlop-fx-500-2023",
+      "brand": "Dunlop",
+      "product": "FX",
+      "variant": "500",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 321,
+      "stiffness": 69,
+      "beam": [23, 26, 23],
+      "weight": 320,
+      "recommendedTension": "45-65 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "dunlop-fx-500-tour-2023",
+      "brand": "Dunlop",
+      "product": "FX",
+      "variant": "500 Tour",
+      "version": "2023",
+      "releaseYear": 2023,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 317,
+      "stiffness": 65,
+      "beam": [21, 23, 21],
+      "weight": 323,
+      "recommendedTension": "45-65 pounds",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

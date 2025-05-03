@@ -14,6 +14,19 @@ import pureDrive2025 from "./babolat/2025-babolat-pure_drive.json";
 import pureStrike2024 from "./babolat/2024-babolat-pure_strike.json";
 
 /* --------------------
+Dunlop Rackets
+-------------------- */
+
+// CX Series
+import cx2024 from "./dunlop/2024-dunlop-cx.json";
+
+// FX Series
+import fx2023 from "./dunlop/2023-dunlop-fx.json";
+
+// SX Series
+import sx2025 from "./dunlop/2025-dunlop-sx.json";
+
+/* --------------------
 HEAD Rackets
 -------------------- */
 
@@ -43,8 +56,7 @@ import radical2025 from "./head/2025-head-radical.json";
 import speed2024 from "./head/2024-head-speed.json";
 
 /* --------------------
-
- Rackets
+Tecnifibre Rackets
 -------------------- */
 
 // TF40
@@ -110,6 +122,10 @@ export const racketsData = [
   ...pureDrive2024.rackets,
   ...pureDrive2025.rackets,
   ...pureStrike2024.rackets,
+  // Dunlop
+  ...cx2024.rackets,
+  ...fx2023.rackets,
+  ...sx2025.rackets,
   // HEAD
   ...boom2024.rackets,
   ...extreme2020.rackets,
