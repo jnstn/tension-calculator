@@ -121,6 +121,69 @@ const convertWeight = (value, from, to) => {
  */
 export default function TensionCalculator() {
   // State hooks for UI selections and values
+  const [showOldSpecs, setShowOldSpecs] = useState(false);
+  const [showNewSpecs, setShowNewSpecs] = useState(false);
+  // Helper to render a summary of racket specs, including balance and recommended tension with unit conversion
+  const renderRacketSpecs = (specs) => {
+    if (!specs) return null;
+
+    // Compute recommended tension string in correct units
+    const recommendedTension = (() => {
+      if (!specs.recommendedTension) return null;
+      // Match pattern like "50-60 lb" or "22-27 kg"
+      const match = specs.recommendedTension.match(/(\d+)-(\d+)/);
+      if (!match) return specs.recommendedTension;
+
+      let [_, min, max] = match.map(Number);
+      if (unit === "kg") {
+        min = (min / 2.20462).toFixed(1);
+        max = (max / 2.20462).toFixed(1);
+        return `${min}-${max} kg`;
+      } else {
+        return `${min}-${max} lb`;
+      }
+    })();
+
+    return (
+      <div className="grid gap-1 mt-2 mb-2 text-sm">
+        <div>
+          <Label>Head Size:</Label> <span>{specs.headSize} sq in</span>
+        </div>
+        <div>
+          <Label>String Pattern:</Label>{" "}
+          <span>
+            {specs.pattern.mains}x{specs.pattern.crosses}
+          </span>
+        </div>
+        <div>
+          <Label>Strung Weight:</Label>{" "}
+          <span>
+            {specs.weight} g ({(specs.weight / 28.3495).toFixed(1)} oz)
+          </span>
+        </div>
+        {specs.balance && (
+          <div>
+            <Label>Balance:</Label> <span>{specs.balance} mm</span>
+          </div>
+        )}
+        <div>
+          <Label>Stiffness:</Label> <span>{specs.stiffness} RA</span>
+        </div>
+        {recommendedTension && (
+          <div>
+            <Label>Recommended Tension:</Label>{" "}
+            <span>{recommendedTension}</span>
+          </div>
+        )}
+        {specs.stringingInstructions && (
+          <div>
+            <Label>Stringing Instructions:</Label>{" "}
+            <span>{specs.stringingInstructions}</span>
+          </div>
+        )}
+      </div>
+    );
+  };
   const [rackets, setRackets] = useState([]);
   const [oldSelection, setOldSelection] = useState({});
   const [newSelection, setNewSelection] = useState({});
@@ -428,6 +491,22 @@ export default function TensionCalculator() {
                 Racket
               </Label>
               {renderRacketSelectors(oldSelection, setOldSelection)}
+              {/* Show Specs toggle and summary */}
+              <div className="mt-2">
+                <button
+                  type="button"
+                  className="text-xs px-2 py-1 rounded border border-gray-400 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                  onClick={() => setShowOldSpecs((v) => !v)}
+                  disabled={!getRacketBySelection(oldSelection)}
+                >
+                  {showOldSpecs ? "Hide Specs" : "Show Specs"}
+                </button>
+                {showOldSpecs && getRacketBySelection(oldSelection) && (
+                  <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded p-2 mt-2">
+                    {renderRacketSpecs(getRacketBySelection(oldSelection))}
+                  </div>
+                )}
+              </div>
             </div>
 
             <div className="grid gap-4 border-t border-gray-300 dark:border-gray-600 pt-4">
@@ -487,6 +566,22 @@ export default function TensionCalculator() {
                 Racket
               </Label>
               {renderRacketSelectors(newSelection, setNewSelection)}
+              {/* Show Specs toggle and summary */}
+              <div className="mt-2">
+                <button
+                  type="button"
+                  className="text-xs px-2 py-1 rounded border border-gray-400 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                  onClick={() => setShowNewSpecs((v) => !v)}
+                  disabled={!getRacketBySelection(newSelection)}
+                >
+                  {showNewSpecs ? "Hide Specs" : "Show Specs"}
+                </button>
+                {showNewSpecs && getRacketBySelection(newSelection) && (
+                  <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded p-2 mt-2">
+                    {renderRacketSpecs(getRacketBySelection(newSelection))}
+                  </div>
+                )}
+              </div>
             </div>
 
             <div className="grid gap-4 border-t border-gray-300 dark:border-gray-600 pt-4">
