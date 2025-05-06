@@ -64,11 +64,18 @@ import speed2024 from "./head/2024-head-speed.json";
 Tecnifibre Rackets
 -------------------- */
 
+// Tempo
+import tempo2022 from "./tecnifibre/2022-tecnifibre-tempo.json";
+
 // TF40
 import tf402024 from "./tecnifibre/2024-tecnifibre-tf40.json";
 
 // TFight
 import tfight2025 from "./tecnifibre/2025-tecnifibre-tfight.json";
+
+// TF-X1
+import tfx12021 from "./tecnifibre/2021-tecnifibre-tfx1.json";
+import tfx12024 from "./tecnifibre/2024-tecnifibre-tfx1.json";
 
 /* --------------------
 Wilson Rackets
@@ -150,8 +157,11 @@ export const racketsData = [
   ...speed2022.rackets,
   ...speed2024.rackets,
   // Tecnifibre
+  ...tempo2022.rackets,
   ...tf402024.rackets,
   ...tfight2025.rackets,
+  ...tfx12021.rackets,
+  ...tfx12024.rackets,
   // Wilson
   ...blade2024.rackets,
   ...burn2023.rackets,

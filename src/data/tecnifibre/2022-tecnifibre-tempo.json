@@ -1,0 +1,23 @@
+{
+  "rackets": [
+    {
+      "id": "tecnifibre-tempo-298-iga-2022",
+      "brand": "Tecnifibre",
+      "product": "Tempo",
+      "variant": "298 IGA",
+      "version": "2022",
+      "releaseYear": 2022,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 325,
+      "stiffness": 71,
+      "beam": [23],
+      "weight": 312,
+      "recommendedTension": "50-55 lbs",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

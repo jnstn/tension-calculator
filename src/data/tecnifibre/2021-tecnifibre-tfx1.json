@@ -1,0 +1,61 @@
+{
+  "rackets": [
+    {
+      "id": "tecnifibre-tfx1-300-2021",
+      "brand": "Tecnifibre",
+      "product": "TF-X1",
+      "variant": "300",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 323,
+      "stiffness": 71,
+      "beam": [24],
+      "weight": 315,
+      "recommendedTension": "49-55 lbs",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "tecnifibre-tfx1-285-2021",
+      "brand": "Tecnifibre",
+      "product": "TF-X1",
+      "variant": "285",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 100,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 316,
+      "stiffness": 71,
+      "beam": [24],
+      "weight": 298,
+      "recommendedTension": "49-55 lbs",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    },
+    {
+      "id": "tecnifibre-tfx1-275-2021",
+      "brand": "Tecnifibre",
+      "product": "TF-X1",
+      "variant": "275",
+      "version": "2021",
+      "releaseYear": 2021,
+      "headSize": 105,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 310,
+      "stiffness": 69,
+      "beam": [25.5],
+      "weight": 289,
+      "recommendedTension": "49-55 lbs",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}

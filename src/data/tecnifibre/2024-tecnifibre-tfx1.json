@@ -1,0 +1,23 @@
+{
+  "rackets": [
+    {
+      "id": "tecnifibre-tfx1-305-2024",
+      "brand": "Tecnifibre",
+      "product": "TF-X1",
+      "variant": "305",
+      "version": "2024",
+      "releaseYear": 2024,
+      "headSize": 98,
+      "pattern": {
+        "mains": 16,
+        "crosses": 19
+      },
+      "swingweight": 333,
+      "stiffness": 70,
+      "beam": [24.5],
+      "weight": 323,
+      "recommendedTension": "49-55 lbs",
+      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+    }
+  ]
+}
