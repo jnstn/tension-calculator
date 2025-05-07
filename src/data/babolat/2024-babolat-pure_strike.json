@@ -75,44 +75,6 @@
       "weight": 332,
       "recommendedTension": "48-57 pounds",
       "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
-    },
-    {
-      "id": "babolat-pure-strike-98-18x20-2024",
-      "brand": "Babolat",
-      "product": "Pure Strike",
-      "variant": "98 18x20",
-      "version": "2024",
-      "releaseYear": 2024,
-      "headSize": 98,
-      "pattern": {
-        "mains": 18,
-        "crosses": 20
-      },
-      "swingweight": 332,
-      "stiffness": 63,
-      "beam": [21, 23, 21],
-      "weight": 323,
-      "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
-    },
-    {
-      "id": "babolat-pure-strike-98-16x19-2024",
-      "brand": "Babolat",
-      "product": "Pure Strike",
-      "variant": "98 16x19",
-      "version": "2024",
-      "releaseYear": 2024,
-      "headSize": 98,
-      "pattern": {
-        "mains": 16,
-        "crosses": 19
-      },
-      "swingweight": 330,
-      "stiffness": 64,
-      "beam": [21, 23, 21],
-      "weight": 323,
-      "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
     }
   ]
 }
