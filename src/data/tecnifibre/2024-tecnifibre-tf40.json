@@ -17,7 +17,7 @@
       "beam": [22, 22, 22],
       "weight": 303,
       "recommendedTension": "49-55 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "tecnifibre-tf40-305g-(18x20)-2024",
@@ -36,7 +36,7 @@
       "beam": [22, 22, 22],
       "weight": 323,
       "recommendedTension": "49-55 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+      "stringingInstructions": "8T,10T,8H,10H"
     },
     {
       "id": "tecnifibre-tf40-305g-(16x19)-2024",
@@ -55,7 +55,7 @@
       "beam": [22, 22, 22],
       "weight": 320,
       "recommendedTension": "49-55 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "tecnifibre-tf40-315g-(16x19)-2024",
@@ -74,7 +74,7 @@
       "beam": [22, 22, 22],
       "weight": 332,
       "recommendedTension": "49-55 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     }
   ]
 }

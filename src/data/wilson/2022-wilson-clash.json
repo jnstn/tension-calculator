@@ -17,7 +17,7 @@
       "beam": [24.5, 24.5, 24.5],
       "weight": 295,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-clash-100ul-v2-2022",
@@ -36,7 +36,7 @@
       "beam": [24.5, 24.5, 24.5],
       "weight": 281,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-clash-100l-v2-2022",
@@ -55,7 +55,7 @@
       "beam": [24.5, 24.5, 24.5],
       "weight": 295,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-clash-100-pro-v2-2022",
@@ -74,7 +74,7 @@
       "beam": [24.5, 24.5, 24.5],
       "weight": 326,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-clash-100-v2-2022",
@@ -93,7 +93,7 @@
       "beam": [24.5, 24.5, 24.5],
       "weight": 312,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-clash-98-v2-2022",
@@ -112,7 +112,7 @@
       "beam": [24, 24, 24],
       "weight": 326,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     }
   ]
 }

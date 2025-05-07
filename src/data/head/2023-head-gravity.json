@@ -17,7 +17,7 @@
       "beam": [24, 24, 24],
       "weight": 301,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-gravity-mp-auxetic-1_0",
@@ -36,7 +36,7 @@
       "beam": [22, 22, 22],
       "weight": 312,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     }
   ]
 }

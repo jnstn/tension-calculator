@@ -17,7 +17,7 @@
       "beam": [28, 29, 29],
       "weight": 244,
       "recommendedTension": "52-62 pounds",
-      "stringingInstructions": "Mains skip: 8T,7H,9H"
+      "stringingInstructions": "8T,7H,9H"
     },
     {
       "id": "head-instinct-pwr-110-auxetic-2_0",
@@ -36,7 +36,7 @@
       "beam": [26, 25, 23],
       "weight": 275,
       "recommendedTension": "52-62 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-instinct-team-l-auxetic-2_0",
@@ -55,7 +55,7 @@
       "beam": [23, 26, 23],
       "weight": 283,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "head-instinct-mp-auxetic-2_0",
@@ -74,7 +74,7 @@
       "beam": [23, 26, 23],
       "weight": 318,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     }
   ]
 }

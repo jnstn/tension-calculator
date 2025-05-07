@@ -17,7 +17,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 318,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-prestige-tour-auxetic-2_0",
@@ -36,7 +36,7 @@
       "beam": [22, 22, 22],
       "weight": 332,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "head-prestige-pro-auxetic-2_0",
@@ -55,7 +55,7 @@
       "beam": [20, 20, 20],
       "weight": 337,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+      "stringingInstructions": "8T,10T,8H,10H"
     },
     {
       "id": "head-prestige-pro-16x19-auxetic-2_0",
@@ -74,7 +74,7 @@
       "beam": [20, 20, 20],
       "weight": 337,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,7H,9H"
+      "stringingInstructions": "8T,7H,9H"
     },
     {
       "id": "head-prestige-mp-auxetic-2_0",
@@ -93,7 +93,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 326,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+      "stringingInstructions": "8T,10T,8H,10H"
     }
   ]
 }

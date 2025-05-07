@@ -17,7 +17,7 @@
       "beam": [21, 21, 21],
       "weight": 343,
       "recommendedTension": "50-62 pounds",
-      "stringingInstructions": "Mains skip: 9T,8H,10H"
+      "stringingInstructions": "9T,8H,10H"
     },
     {
       "id": "head-iprestige-mp-xl-2001",
@@ -36,7 +36,7 @@
       "beam": [21, 21, 21],
       "weight": 335,
       "recommendedTension": "50-62 pounds",
-      "stringingInstructions": "Mains skip: 9T,8H,10H"
+      "stringingInstructions": "9T,8H,10H"
     },
     {
       "id": "head-iprestige-mid-2001",
@@ -55,7 +55,7 @@
       "beam": [19, 19, 19],
       "weight": 343,
       "recommendedTension": "48-58 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+      "stringingInstructions": "8T,10T,8H,10H"
     }
   ]
 }

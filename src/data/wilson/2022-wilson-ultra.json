@@ -17,7 +17,7 @@
       "beam": [26, 27.5, 25.5],
       "weight": 283,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-ultra-100ul-v4-2022",
@@ -36,7 +36,7 @@
       "beam": [24, 26.5, 24.2],
       "weight": 275,
       "recommendedTension": "47-57 pounds",
-      "stringingInstructions": "Mains skip: 8T, 8H"
+      "stringingInstructions": "8T, 8H"
     },
     {
       "id": "wilson-ultra-100l-v4-2022",
@@ -55,7 +55,7 @@
       "beam": [24, 26.5, 24.2],
       "weight": 295,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T, 8H"
+      "stringingInstructions": "8T, 8H"
     },
     {
       "id": "wilson-ultra-100-v4-2022",
@@ -74,7 +74,7 @@
       "beam": [24, 26.5, 25],
       "weight": 318,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T, 8H"
+      "stringingInstructions": "8T, 8H"
     },
     {
       "id": "wilson-ultra-pro-18x20-v4-2022",
@@ -93,7 +93,7 @@
       "beam": [20.6, 20.6, 20.6],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 9T,8H,10H"
+      "stringingInstructions": "9T,8H,10H"
     },
     {
       "id": "wilson-ultra-pro-16x19-v4-2022",
@@ -112,7 +112,7 @@
       "beam": [20.6, 20.6, 20.6],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     }
   ]
 }

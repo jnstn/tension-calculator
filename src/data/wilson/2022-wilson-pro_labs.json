@@ -17,7 +17,7 @@
       "beam": [20.6, 20.6, 20.6],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 9T,8H,10H"
+      "stringingInstructions": "9T,8H,10H"
     },
     {
       "id": "wilson-ultra-pro-16x19-v4-2022",
@@ -36,7 +36,7 @@
       "beam": [20.6, 20.6, 20.6],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     }
   ]
 }

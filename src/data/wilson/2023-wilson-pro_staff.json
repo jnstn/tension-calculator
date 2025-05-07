@@ -17,7 +17,7 @@
       "beam": [22.5, 22.5, 22.5],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,7H,9H"
+      "stringingInstructions": "8T,7H,9H"
     },
     {
       "id": "wilson-pro-staff-x-v14-2023",
@@ -36,7 +36,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 332,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-pro-staff-97ul-v14-2023",
@@ -55,7 +55,7 @@
       "beam": [23.5, 23.5, 23.5],
       "weight": 283,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-pro-staff-97l-v14-2023",
@@ -74,7 +74,7 @@
       "beam": [23.5, 23.5, 23.5],
       "weight": 306,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-pro-staff-97-v14-2023",
@@ -93,7 +93,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 332,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-pro-staff-six.one-95-v14-2023",
@@ -112,7 +112,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 349,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T 10T 8H 10H"
+      "stringingInstructions": "8T 10T 8H 10H"
     }
   ]
 }

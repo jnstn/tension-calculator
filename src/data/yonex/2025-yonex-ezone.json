@@ -17,7 +17,7 @@
       "beam": [26, 29, 24],
       "weight": 269,
       "recommendedTension": "40-55 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "yonex-ezone-105-2025",
@@ -36,7 +36,7 @@
       "beam": [24, 26.5, 23],
       "weight": 289,
       "recommendedTension": "40-55 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "yonex-ezone-100-sl-2025",
@@ -55,7 +55,7 @@
       "beam": [24.5, 26.5, 23],
       "weight": 283,
       "recommendedTension": "40-55 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "yonex-ezone-100l-2025",
@@ -74,7 +74,7 @@
       "beam": [24.5, 26.5, 23],
       "weight": 301,
       "recommendedTension": "40-55 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "yonex-ezone-98plus-2025",
@@ -93,7 +93,7 @@
       "beam": [23.8, 24.5, 19.5],
       "weight": 323,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "yonex-ezone-100plus-2025",
@@ -112,7 +112,7 @@
       "beam": [24.5, 26.5, 23],
       "weight": 318,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "yonex-ezone-98-tour-2025",
@@ -131,7 +131,7 @@
       "beam": [23.8, 24.5, 19.5],
       "weight": 332,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "yonex-ezone-98-2025",
@@ -150,7 +150,7 @@
       "beam": [23.8, 24.5, 19.5],
       "weight": 323,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "yonex-ezone-100-2025",
@@ -169,7 +169,7 @@
       "beam": [24.5, 26.5, 23],
       "weight": 318,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     }
   ]
 }

@@ -17,7 +17,7 @@
       "beam": [23, 26, 23],
       "weight": 283,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "babolat-pure-aero-team-2023",
@@ -36,7 +36,7 @@
       "beam": [23, 26, 23],
       "weight": 301,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "babolat-pure-aero-plus-2023",
@@ -55,7 +55,7 @@
       "beam": [23, 26, 23],
       "weight": 320,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "babolat-pure-aero-100-2023",
@@ -74,7 +74,7 @@
       "beam": [23, 26, 23],
       "weight": 318,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "babolat-pure-aero-98-2023",
@@ -93,7 +93,7 @@
       "beam": [21, 23, 22],
       "weight": 323,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     }
   ]
 }

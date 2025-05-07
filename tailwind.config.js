@@ -50,6 +50,9 @@ export default {
           5: "hsl(var(--chart-5))",
         },
       },
+      fontSize: {
+        xxs: ["0.6rem", { lineHeight: "1.3" }],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

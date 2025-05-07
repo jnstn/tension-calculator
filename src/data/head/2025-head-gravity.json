@@ -17,7 +17,7 @@
       "beam": [24, 24, 24],
       "weight": 283,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-gravity-mp-l-auxetic-2_0",
@@ -36,7 +36,7 @@
       "beam": [24, 24, 24],
       "weight": 295,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-gravity-mp-auxetic-2_0",
@@ -55,7 +55,7 @@
       "beam": [22, 22, 22],
       "weight": 312,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-gravity-tour-auxetic-2_0",
@@ -74,7 +74,7 @@
       "beam": [22, 22, 22],
       "weight": 323,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-gravity-pro-auxetic-2_0",
@@ -93,7 +93,7 @@
       "beam": [20, 20, 20],
       "weight": 332,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+      "stringingInstructions": "8T,10T,8H,10H"
     }
   ]
 }

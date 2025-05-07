@@ -17,7 +17,7 @@
       "beam": [24, 26.5, 23.5],
       "weight": 269,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "babolat-pure-drive-107-2021",
@@ -36,7 +36,7 @@
       "beam": [23, 26, 23],
       "weight": 301,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "babolat-pure-drive-lite-2021",
@@ -55,7 +55,7 @@
       "beam": [23, 26, 23],
       "weight": 283,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "babolat-pure-drive-team-2021",
@@ -74,7 +74,7 @@
       "beam": [23, 26, 23],
       "weight": 301,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "babolat-pure-drive-plus-2021",
@@ -93,7 +93,7 @@
       "beam": [23, 26, 23],
       "weight": 318,
       "recommendedTension": "50-59 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     }
   ]
 }

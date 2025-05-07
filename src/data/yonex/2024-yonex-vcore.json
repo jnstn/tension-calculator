@@ -17,7 +17,7 @@
       "beam": [23, 23, 21],
       "weight": 323,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "yonex-vcore-95-2024",
@@ -36,7 +36,7 @@
       "beam": [22, 22, 21],
       "weight": 326,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "yonex-vcore-100-2024",
@@ -55,7 +55,7 @@
       "beam": [25.3, 25.3, 22],
       "weight": 320,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "yonex-vcore-100l-2024",
@@ -74,7 +74,7 @@
       "beam": [25.3, 25.3, 22],
       "weight": 298,
       "recommendedTension": "45-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "yonex-vcore-feel-2024",

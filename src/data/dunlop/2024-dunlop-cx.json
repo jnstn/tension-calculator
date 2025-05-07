@@ -17,7 +17,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 303,
       "recommendedTension": "45-65 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "dunlop-cx-200-os-2024",
@@ -36,7 +36,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 309,
       "recommendedTension": "40-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "dunlop-cx-400-tour-2024",
@@ -55,7 +55,7 @@
       "beam": [23, 23, 23],
       "weight": 318,
       "recommendedTension": "45-65 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "dunlop-cx-400-2024",
@@ -74,7 +74,7 @@
       "beam": [24, 24, 24],
       "weight": 301,
       "recommendedTension": "40-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "dunlop-cx-200-2024",
@@ -93,7 +93,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 320,
       "recommendedTension": "45-65 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "dunlop-cx-200-tour-16x19-2024",
@@ -112,7 +112,7 @@
       "beam": [20.5, 20.5, 20.5],
       "weight": 326,
       "recommendedTension": "45-65 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "dunlop-cx-200-tour-18x20-2024",
@@ -131,7 +131,7 @@
       "beam": [20.5, 20.5, 20.5],
       "weight": 332,
       "recommendedTension": "45-65 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+      "stringingInstructions": "8T,10T,8H,10H"
     }
   ]
 }

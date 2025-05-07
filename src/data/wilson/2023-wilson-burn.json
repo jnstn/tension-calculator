@@ -17,7 +17,7 @@
       "beam": [23.5, 25, 23.5],
       "weight": 275,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 9T,8H,10H"
+      "stringingInstructions": "9T,8H,10H"
     },
     {
       "id": "wilson-burn-burn-100ls-v5-2023",
@@ -36,7 +36,7 @@
       "beam": [23.5, 25, 23.5],
       "weight": 298,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 9T,8H,10H"
+      "stringingInstructions": "9T,8H,10H"
     },
     {
       "id": "wilson-burn-burn-100s-v5-2023",
@@ -55,7 +55,7 @@
       "beam": [23.5, 25, 23.5],
       "weight": 320,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 9T,8H,10H"
+      "stringingInstructions": "9T,8H,10H"
     },
     {
       "id": "wilson-burn-burn-100-v5-2023",
@@ -74,7 +74,7 @@
       "beam": [23.5, 25, 23.5],
       "weight": 318,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     }
   ]
 }

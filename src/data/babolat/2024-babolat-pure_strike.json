@@ -17,7 +17,7 @@
       "beam": [21, 23, 21],
       "weight": 303,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "babolat-pure-strike-100-2024",
@@ -36,7 +36,7 @@
       "beam": [21, 23, 21],
       "weight": 318,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "babolat-pure-strike-100-16x20-2024",
@@ -55,7 +55,7 @@
       "beam": [21, 23, 21],
       "weight": 323,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "babolat-pure-strike-97-2024",
@@ -74,7 +74,7 @@
       "beam": [21, 22, 21],
       "weight": 332,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     }
   ]
 }

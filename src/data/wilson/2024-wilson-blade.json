@@ -17,7 +17,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 9T,8H,10H"
+      "stringingInstructions": "9T,8H,10H"
     },
     {
       "id": "wilson-blade-pro-98-16x19-v9-2024",
@@ -36,7 +36,7 @@
       "beam": [21.5, 21.5, 21.5],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-blade-104-v9-2024",
@@ -55,7 +55,7 @@
       "beam": [22, 22, 22],
       "weight": 306,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,8H"
+      "stringingInstructions": "7T,9T,8H"
     },
     {
       "id": "wilson-blade-100ul-v9-2024",
@@ -74,7 +74,7 @@
       "beam": [22, 22, 22],
       "weight": 283,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "wilson-blade-100l-v9-2024",
@@ -93,7 +93,7 @@
       "beam": [22, 22, 22],
       "weight": 301,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "wilson-blade-100-v9-2024",
@@ -112,7 +112,7 @@
       "beam": [22, 22, 22],
       "weight": 318,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "wilson-blade-98-16x19-v9-2024",
@@ -131,7 +131,7 @@
       "beam": [21, 21, 21],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     },
     {
       "id": "wilson-blade-98-18x20-v9-2024",
@@ -150,7 +150,7 @@
       "beam": [21, 21, 21],
       "weight": 323,
       "recommendedTension": "50-60 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+      "stringingInstructions": "8T,10T,8H,10H"
     }
   ]
 }

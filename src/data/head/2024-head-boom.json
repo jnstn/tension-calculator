@@ -17,7 +17,7 @@
       "beam": [23, 24, 22],
       "weight": 283,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-boom-team-l-mint-auxetic-2_0",
@@ -36,7 +36,7 @@
       "beam": [25, 25, 22],
       "weight": 275,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-boom-mp-mint-auxetic-2_0",
@@ -55,7 +55,7 @@
       "beam": [23, 24, 22],
       "weight": 312,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-boom-mp-l-auxetic-2_0",
@@ -74,7 +74,7 @@
       "beam": [23, 24, 22],
       "weight": 283,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-boom-team-auxetic-2_0",
@@ -93,7 +93,7 @@
       "beam": [25, 25, 22],
       "weight": 289,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-boom-mp-auxetic-2_0",
@@ -112,7 +112,7 @@
       "beam": [23, 24, 23],
       "weight": 312,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "head-boom-pro-auxetic-2_0",
@@ -131,7 +131,7 @@
       "beam": [22, 22, 21.5],
       "weight": 326,
       "recommendedTension": "48-57 pounds",
-      "stringingInstructions": "Mains skip: 8T,8H"
+      "stringingInstructions": "8T,8H"
     }
   ]
 }

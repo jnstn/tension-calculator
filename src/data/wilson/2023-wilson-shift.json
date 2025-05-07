@@ -17,7 +17,7 @@
       "beam": [23.5, 23.5, 23.5],
       "weight": 301,
       "recommendedTension": "48-58 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-shift-99-v1-2023",
@@ -36,7 +36,7 @@
       "beam": [23.5, 23.5, 23.5],
       "weight": 318,
       "recommendedTension": "48-58 pounds",
-      "stringingInstructions": "Mains skip: 7T,9T,7H,9H"
+      "stringingInstructions": "7T,9T,7H,9H"
     },
     {
       "id": "wilson-shift-99-pro-v1-2023",
@@ -55,7 +55,7 @@
       "beam": [23.5, 23.5, 23.5],
       "weight": 332,
       "recommendedTension": "48-58 pounds",
-      "stringingInstructions": "Mains skip: 8T,10T,8H,10H"
+      "stringingInstructions": "8T,10T,8H,10H"
     }
   ]
 }
