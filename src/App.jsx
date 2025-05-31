@@ -264,8 +264,8 @@ export default function TensionCalculator() {
   // Ratio presets for different tension profiles
   const profileRatios = {
     balanced: 1.0,
-    spin: 0.97,
-    control: 1.03,
+    spin: 1.03, // Looser mains, tighter crosses — more spin
+    control: 0.97, // Tighter mains, looser crosses — more control
   };
 
   // Load racket data on mount
