@@ -20,7 +20,7 @@ import { racketsData } from "./data/data";
  * @param {number|string} mains - Main string tension (lbs)
  * @param {number|string} crosses - Cross string tension (lbs)
  * @param {object} specs - Racket specifications
- * @param {number} referenceHeadSize - Head size of the 'old' racket for scaling
+ * @param {number} referenceHeadSize - Head size of the reference racket for scaling
  * @returns {number|null} Estimated DT rounded to one decimal, or null if missing data
  */
 const estimateDynamicTension = (mains, crosses, specs, referenceHeadSize) => {
@@ -62,12 +62,12 @@ const estimateDynamicTension = (mains, crosses, specs, referenceHeadSize) => {
 /**
  * findTensionForDT()
  * Uses a binary search to find the mains tension on a new racket that
- * matches a target 'dynamic tension' (DT) from an old racket.
+ * matches a target 'dynamic tension' (DT) from an reference racket.
  *
  * @param {number} targetDT - DT to match
  * @param {number} ratio - mains-to-crosses tension ratio (profile)
  * @param {object} specs - New racket specifications
- * @param {number} referenceHeadSize - Head size of the old racket
+ * @param {number} referenceHeadSize - Head size of the reference racket
  * @returns {number} Suggested mains tension (lbs) rounded to nearest 0.5
  */
 const findTensionForDT = (targetDT, ratio, specs, referenceHeadSize) => {
@@ -116,12 +116,12 @@ const convertWeight = (value, from, to) => {
 
 /**
  * TensionCalculator Component
- * Renders UI for selecting an old racket, entering its tension, then
+ * Renders UI for selecting an reference racket, entering its tension, then
  * selecting a new racket to get suggested tensions to match feel.
  */
 export default function TensionCalculator() {
   // State hooks for UI selections and values
-  const [showOldSpecs, setShowOldSpecs] = useState(false);
+  const [showReferenceSpecs, setShowReferenceSpecs] = useState(false);
   const [showNewSpecs, setShowNewSpecs] = useState(false);
   // Helper to render a summary of racket specs, including balance and recommended tension with unit conversion
   const renderRacketSpecs = (specs) => {
@@ -250,14 +250,14 @@ export default function TensionCalculator() {
     );
   };
   const [rackets, setRackets] = useState([]);
-  const [oldSelection, setOldSelection] = useState({});
+  const [referenceSelection, setReferenceSelection] = useState({});
   const [newSelection, setNewSelection] = useState({});
   const [unit, setUnit] = useState("lbs");
-  const [oldMainsLbs, setOldMainsLbs] = useState(46);
-  const [oldCrossesLbs, setOldCrossesLbs] = useState(46);
+  const [referenceMainsLbs, setReferenceMainsLbs] = useState(46);
+  const [referenceCrossesLbs, setReferenceCrossesLbs] = useState(46);
   const [suggestedMains, setSuggestedMains] = useState(null);
   const [suggestedCrosses, setSuggestedCrosses] = useState(null);
-  const [oldDT, setOldDT] = useState(null);
+  const [referenceDT, setReferenceDT] = useState(null);
   const [newDT, setNewDT] = useState(null);
   const [tensionProfile, setTensionProfile] = useState("balanced");
 
@@ -313,54 +313,53 @@ export default function TensionCalculator() {
 
   // Recalculate DTs and suggested tensions whenever inputs change
   useEffect(() => {
-    const oldSpecs = getRacketBySelection(oldSelection);
+    const referenceSpecs = getRacketBySelection(referenceSelection);
     const newSpecs = getRacketBySelection(newSelection);
 
-    // Only proceed if old racket is selected
-    if (!oldSpecs) return;
+    // Only proceed if reference racket is selected
+    if (!referenceSpecs) return;
 
-    // Use old racket's headSize as reference
-    const referenceHeadSize = oldSpecs.headSize;
+    // Use reference racket's headSize as reference
+    const referenceHeadSize = referenceSpecs.headSize;
 
-    // Calculate and set old DT
-    const calculatedOldDT = estimateDynamicTension(
-      oldMainsLbs,
-      oldCrossesLbs,
-      oldSpecs,
+    // Calculate and set reference DT
+    const calculatedReferenceDT = estimateDynamicTension(
+      referenceMainsLbs,
+      referenceCrossesLbs,
+      referenceSpecs,
       referenceHeadSize
     );
-    setOldDT(calculatedOldDT);
+    setReferenceDT(calculatedReferenceDT);
+
+    // Set the new DT field immediately from reference DT
+    setNewDT(calculatedReferenceDT);
 
     // If new racket selected, compute matched tensions
     if (newSpecs) {
       const ratio = profileRatios[tensionProfile];
+      // Use newDT (which is calculatedReferenceDT) as the DT to match
       const mains = findTensionForDT(
-        calculatedOldDT,
+        calculatedReferenceDT,
         ratio,
         newSpecs,
         referenceHeadSize
       );
-      // Round crosses to nearest 0.5
-      const crosses = Math.round(mains * ratio * 2) / 2;
-      setSuggestedMains(mains);
-      setSuggestedCrosses(crosses);
-
-      // Calculate new DT for display
-      const calculatedNewDT = estimateDynamicTension(
-        mains,
-        crosses,
-        newSpecs,
-        referenceHeadSize
-      );
-      setNewDT(calculatedNewDT);
+      const crosses = mains * ratio;
+      // Round to nearest 0.1 in selected unit
+      const roundingFactor = unit === "kg" ? 0.1 * 2.20462 : 0.1;
+      const roundToNearest = (value) =>
+        Math.round(value / roundingFactor) * roundingFactor;
+      setSuggestedMains(roundToNearest(mains));
+      setSuggestedCrosses(roundToNearest(crosses));
     }
   }, [
-    oldSelection,
+    referenceSelection,
     newSelection,
-    oldMainsLbs,
-    oldCrossesLbs,
+    referenceMainsLbs,
+    referenceCrossesLbs,
     tensionProfile,
     rackets,
+    unit,
   ]);
 
   /**
@@ -546,61 +545,66 @@ export default function TensionCalculator() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Old Racket Panel */}
+        {/* Reference Racket Panel */}
         <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-md">
           <CardContent className="p-4 grid gap-6">
-            <Label className="font-bold text-lg">Old Racket</Label>
+            <Label className="font-bold text-lg">Reference Racket</Label>
 
             <div className="grid gap-4">
               <Label className="text-sm font-semibold uppercase text-gray-500 dark:text-gray-400">
                 Racket
               </Label>
-              {renderRacketSelectors(oldSelection, setOldSelection)}
+              {renderRacketSelectors(referenceSelection, setReferenceSelection)}
               {/* Show Specs toggle and summary */}
-              {oldSelection.brand &&
-                oldSelection.product &&
-                oldSelection.version &&
-                oldSelection.variant && (
+              {referenceSelection.brand &&
+                referenceSelection.product &&
+                referenceSelection.version &&
+                referenceSelection.variant && (
                   <div className="mt-2">
                     <button
                       type="button"
                       className="text-xs px-2 py-1 rounded border border-gray-400 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
-                      onClick={() => setShowOldSpecs((v) => !v)}
-                      disabled={!getRacketBySelection(oldSelection)}
+                      onClick={() => setShowReferenceSpecs((v) => !v)}
+                      disabled={!getRacketBySelection(referenceSelection)}
                     >
-                      {showOldSpecs ? "Hide Specs" : "Show Specs"}
+                      {showReferenceSpecs ? "Hide Specs" : "Show Specs"}
                     </button>
                   </div>
                 )}
-              {showOldSpecs && getRacketBySelection(oldSelection) && (
-                <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded">
-                  {renderRacketSpecs(getRacketBySelection(oldSelection))}
-                </div>
-              )}
+              {showReferenceSpecs &&
+                getRacketBySelection(referenceSelection) && (
+                  <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded">
+                    {renderRacketSpecs(
+                      getRacketBySelection(referenceSelection)
+                    )}
+                  </div>
+                )}
             </div>
 
             <div className="grid gap-4 border-t border-gray-300 dark:border-gray-600 pt-4">
               <Label className="text-sm font-semibold uppercase text-gray-500 dark:text-gray-400">
-                Tensions
+                Reference Tensions
               </Label>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <Label>Old Mains Tension</Label>
-                  {renderLabeledInput(displayTension(oldMainsLbs), (e) =>
-                    setOldMainsLbs(parseTensionInput(e.target.value))
+                  <Label>Mains</Label>
+                  {renderLabeledInput(displayTension(referenceMainsLbs), (e) =>
+                    setReferenceMainsLbs(parseTensionInput(e.target.value))
                   )}
                 </div>
                 <div>
-                  <Label>Old Crosses Tension</Label>
-                  {renderLabeledInput(displayTension(oldCrossesLbs), (e) =>
-                    setOldCrossesLbs(parseTensionInput(e.target.value))
+                  <Label>Crosses</Label>
+                  {renderLabeledInput(
+                    displayTension(referenceCrossesLbs),
+                    (e) =>
+                      setReferenceCrossesLbs(parseTensionInput(e.target.value))
                   )}
                 </div>
               </div>
               <div>
                 <Label>Estimated DT</Label>
                 {renderLabeledInput(
-                  oldDT !== null ? oldDT.toFixed(1) : "",
+                  referenceDT !== null ? referenceDT.toFixed(1) : "",
                   null,
                   true,
                   false
@@ -682,7 +686,7 @@ export default function TensionCalculator() {
                 </div>
               </div>
               <div>
-                <Label>Estimated DT</Label>
+                <Label>Target DT</Label>
                 {renderLabeledInput(
                   newDT !== null ? newDT.toFixed(1) : "",
                   null,
